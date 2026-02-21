@@ -1,0 +1,7509 @@
+{
+  "game_id": "2799694",
+  "base_url": "https://fibalivestats.dcd.shared.geniussports.com/u/BBF/2799694",
+  "fetched_at": "2026-02-21T11:47:36.221927",
+  "pages": {
+    "index": {
+      "teams": {},
+      "score": {
+        "home": 89,
+        "away": 85
+      },
+      "period": 400,
+      "game_time": null,
+      "status": "unknown"
+    },
+    "boxscore": {
+      "home_players": [
+        {
+          "num": "1",
+          "name": "Demetrius Thomas",
+          "mins": "C/F",
+          "pts": "",
+          "fgm": "25:08",
+          "fga": "16",
+          "3pm": "7-17",
+          "3pa": "41",
+          "ftm": "7-14",
+          "fta": "50",
+          "oreb": "0-3",
+          "dreb": "0",
+          "reb": "2-4",
+          "ast": "50",
+          "stl": "6",
+          "blk": "10",
+          "to": "16",
+          "pf": "0",
+          "+/-": "0"
+        },
+        {
+          "num": "15",
+          "name": "Edward Hampton",
+          "mins": "C/F",
+          "pts": "",
+          "fgm": "29:33",
+          "fga": "28",
+          "3pm": "9-17",
+          "3pa": "52",
+          "ftm": "7-11",
+          "fta": "63",
+          "oreb": "2-6",
+          "dreb": "33",
+          "reb": "8-12",
+          "ast": "66",
+          "stl": "2",
+          "blk": "8",
+          "to": "10",
+          "pf": "2",
+          "+/-": "4"
+        },
+        {
+          "num": "5",
+          "name": "Devin Moody",
+          "mins": "F",
+          "pts": "",
+          "fgm": "19:10",
+          "fga": "2",
+          "3pm": "1-4",
+          "3pa": "25",
+          "ftm": "1-3",
+          "fta": "33",
+          "oreb": "0-1",
+          "dreb": "0",
+          "reb": "0-5",
+          "ast": "0",
+          "stl": "4",
+          "blk": "2",
+          "to": "6",
+          "pf": "2",
+          "+/-": "0"
+        },
+        {
+          "num": "7",
+          "name": "Ashton Edwards",
+          "mins": "SG",
+          "pts": "",
+          "fgm": "15:55",
+          "fga": "7",
+          "3pm": "2-9",
+          "3pa": "22",
+          "ftm": "1-4",
+          "fta": "25",
+          "oreb": "1-5",
+          "dreb": "20",
+          "reb": "2-6",
+          "ast": "33",
+          "stl": "0",
+          "blk": "2",
+          "to": "2",
+          "pf": "1",
+          "+/-": "0"
+        },
+        {
+          "num": "10",
+          "name": "Tyrell Griffith",
+          "mins": "F",
+          "pts": "",
+          "fgm": "10:42",
+          "fga": "6",
+          "3pm": "3-10",
+          "3pa": "30",
+          "ftm": "3-9",
+          "fta": "33",
+          "oreb": "0-1",
+          "dreb": "0",
+          "reb": "0-0",
+          "ast": "0",
+          "stl": "3",
+          "blk": "2",
+          "to": "5",
+          "pf": "0",
+          "+/-": "2"
+        },
+        {
+          "num": "13",
+          "name": "Doug Penland",
+          "mins": "F",
+          "pts": "",
+          "fgm": "0:00",
+          "fga": "0",
+          "3pm": "0-0",
+          "3pa": "0",
+          "ftm": "0-0",
+          "fta": "0",
+          "oreb": "0-0",
+          "dreb": "0",
+          "reb": "0-0",
+          "ast": "0",
+          "stl": "0",
+          "blk": "0",
+          "to": "0",
+          "pf": "0",
+          "+/-": "0"
+        },
+        {
+          "num": "7",
+          "name": "Zoren Smith",
+          "mins": "G",
+          "pts": "",
+          "fgm": "31:35",
+          "fga": "15",
+          "3pm": "5-10",
+          "3pa": "50",
+          "ftm": "0-3",
+          "fta": "0",
+          "oreb": "5-7",
+          "dreb": "71",
+          "reb": "0-0",
+          "ast": "0",
+          "stl": "0",
+          "blk": "9",
+          "to": "9",
+          "pf": "4",
+          "+/-": "0"
+        },
+        {
+          "num": "13",
+          "name": "Victor Evans",
+          "mins": "SF",
+          "pts": "",
+          "fgm": "36:05",
+          "fga": "13",
+          "3pm": "4-14",
+          "3pa": "28",
+          "ftm": "2-9",
+          "fta": "22",
+          "oreb": "2-5",
+          "dreb": "40",
+          "reb": "3-4",
+          "ast": "75",
+          "stl": "0",
+          "blk": "3",
+          "to": "3",
+          "pf": "4",
+          "+/-": "4"
+        },
+        {
+          "num": "00",
+          "name": "Jamie Carbajal",
+          "mins": "G",
+          "pts": "",
+          "fgm": "15:40",
+          "fga": "0",
+          "3pm": "0-4",
+          "3pa": "0",
+          "ftm": "0-2",
+          "fta": "0",
+          "oreb": "0-2",
+          "dreb": "0",
+          "reb": "0-0",
+          "ast": "0",
+          "stl": "0",
+          "blk": "3",
+          "to": "3",
+          "pf": "0",
+          "+/-": "1"
+        },
+        {
+          "num": "15",
+          "name": "Alliziar Rhaburn",
+          "mins": "SG",
+          "pts": "",
+          "fgm": "0:00",
+          "fga": "0",
+          "3pm": "0-0",
+          "3pa": "0",
+          "ftm": "0-0",
+          "fta": "0",
+          "oreb": "0-0",
+          "dreb": "0",
+          "reb": "0-0",
+          "ast": "0",
+          "stl": "0",
+          "blk": "0",
+          "to": "0",
+          "pf": "0",
+          "+/-": "0"
+        },
+        {
+          "num": "27",
+          "name": "Aaron Allison",
+          "mins": "G",
+          "pts": "",
+          "fgm": "6:28",
+          "fga": "1",
+          "3pm": "0-2",
+          "3pa": "0",
+          "ftm": "0-1",
+          "fta": "0",
+          "oreb": "0-1",
+          "dreb": "0",
+          "reb": "1-2",
+          "ast": "50",
+          "stl": "0",
+          "blk": "1",
+          "to": "1",
+          "pf": "0",
+          "+/-": "1"
+        }
+      ],
+      "away_players": [
+        {
+          "num": "0",
+          "name": "Keshaun Mack",
+          "mins": "C/F",
+          "pts": "",
+          "fgm": "26:56",
+          "fga": "10",
+          "3pm": "2-12",
+          "3pa": "16",
+          "ftm": "0-7",
+          "fta": "0",
+          "oreb": "2-5",
+          "dreb": "40",
+          "reb": "4-4",
+          "ast": "100",
+          "stl": "2",
+          "blk": "0",
+          "to": "2",
+          "pf": "2",
+          "+/-": "2"
+        },
+        {
+          "num": "12",
+          "name": "Brian White(C)",
+          "mins": "F",
+          "pts": "",
+          "fgm": "31:20",
+          "fga": "6",
+          "3pm": "2-7",
+          "3pa": "28",
+          "ftm": "2-7",
+          "fta": "28",
+          "oreb": "0-0",
+          "dreb": "0",
+          "reb": "2-4",
+          "ast": "50",
+          "stl": "3",
+          "blk": "11",
+          "to": "14",
+          "pf": "4",
+          "+/-": "3"
+        },
+        {
+          "num": "22",
+          "name": "Eyan Rene",
+          "mins": "G",
+          "pts": "",
+          "fgm": "30:14",
+          "fga": "16",
+          "3pm": "6-15",
+          "3pa": "40",
+          "ftm": "5-10",
+          "fta": "50",
+          "oreb": "1-5",
+          "dreb": "20",
+          "reb": "3-6",
+          "ast": "50",
+          "stl": "3",
+          "blk": "7",
+          "to": "10",
+          "pf": "1",
+          "+/-": "3"
+        },
+        {
+          "num": "6",
+          "name": "Afrie Black",
+          "mins": "SF",
+          "pts": "",
+          "fgm": "0:00",
+          "fga": "0",
+          "3pm": "0-0",
+          "3pa": "0",
+          "ftm": "0-0",
+          "fta": "0",
+          "oreb": "0-0",
+          "dreb": "0",
+          "reb": "0-0",
+          "ast": "0",
+          "stl": "0",
+          "blk": "0",
+          "to": "0",
+          "pf": "0",
+          "+/-": "0"
+        },
+        {
+          "num": "8",
+          "name": "Keon Rowland",
+          "mins": "G",
+          "pts": "",
+          "fgm": "0:00",
+          "fga": "0",
+          "3pm": "0-0",
+          "3pa": "0",
+          "ftm": "0-0",
+          "fta": "0",
+          "oreb": "0-0",
+          "dreb": "0",
+          "reb": "0-0",
+          "ast": "0",
+          "stl": "0",
+          "blk": "0",
+          "to": "0",
+          "pf": "0",
+          "+/-": "0"
+        },
+        {
+          "num": "11",
+          "name": "Keith Pollard",
+          "mins": "SF",
+          "pts": "",
+          "fgm": "11:02",
+          "fga": "0",
+          "3pm": "0-1",
+          "3pa": "0",
+          "ftm": "0-1",
+          "fta": "0",
+          "oreb": "0-0",
+          "dreb": "0",
+          "reb": "0-0",
+          "ast": "0",
+          "stl": "1",
+          "blk": "3",
+          "to": "4",
+          "pf": "1",
+          "+/-": "1"
+        },
+        {
+          "num": "3",
+          "name": "Jeremiah Toney",
+          "mins": "SF",
+          "pts": "",
+          "fgm": "14:08",
+          "fga": "5",
+          "3pm": "1-6",
+          "3pa": "16",
+          "ftm": "1-5",
+          "fta": "20",
+          "oreb": "0-1",
+          "dreb": "0",
+          "reb": "3-4",
+          "ast": "75",
+          "stl": "1",
+          "blk": "4",
+          "to": "5",
+          "pf": "2",
+          "+/-": "0"
+        },
+        {
+          "num": "8",
+          "name": "Glency Lopez(C)",
+          "mins": "PG",
+          "pts": "",
+          "fgm": "35:11",
+          "fga": "23",
+          "3pm": "9-19",
+          "3pa": "47",
+          "ftm": "8-15",
+          "fta": "53",
+          "oreb": "1-4",
+          "dreb": "25",
+          "reb": "4-4",
+          "ast": "100",
+          "stl": "1",
+          "blk": "2",
+          "to": "3",
+          "pf": "4",
+          "+/-": "4"
+        },
+        {
+          "num": "35",
+          "name": "Raymond Hawkins",
+          "mins": "C",
+          "pts": "",
+          "fgm": "23:43",
+          "fga": "11",
+          "3pm": "5-9",
+          "3pa": "55",
+          "ftm": "4-6",
+          "fta": "66",
+          "oreb": "1-3",
+          "dreb": "33",
+          "reb": "0-0",
+          "ast": "0",
+          "stl": "3",
+          "blk": "12",
+          "to": "15",
+          "pf": "1",
+          "+/-": "4"
+        },
+        {
+          "num": "6",
+          "name": "Kerwin Palacio",
+          "mins": "C",
+          "pts": "",
+          "fgm": "20:26",
+          "fga": "8",
+          "3pm": "3-9",
+          "3pa": "33",
+          "ftm": "3-9",
+          "fta": "33",
+          "oreb": "0-0",
+          "dreb": "0",
+          "reb": "2-2",
+          "ast": "100",
+          "stl": "2",
+          "blk": "3",
+          "to": "5",
+          "pf": "0",
+          "+/-": "0"
+        },
+        {
+          "num": "24",
+          "name": "Johan Bermudez",
+          "mins": "PG",
+          "pts": "",
+          "fgm": "11:30",
+          "fga": "4",
+          "3pm": "2-3",
+          "3pa": "66",
+          "ftm": "2-3",
+          "fta": "66",
+          "oreb": "0-0",
+          "dreb": "0",
+          "reb": "0-1",
+          "ast": "0",
+          "stl": "0",
+          "blk": "1",
+          "to": "1",
+          "pf": "1",
+          "+/-": "1"
+        },
+        {
+          "num": "99",
+          "name": "Marcus Lewis",
+          "mins": "SF",
+          "pts": "",
+          "fgm": "5:14",
+          "fga": "5",
+          "3pm": "2-4",
+          "3pa": "50",
+          "ftm": "1-1",
+          "fta": "100",
+          "oreb": "1-3",
+          "dreb": "33",
+          "reb": "0-0",
+          "ast": "0",
+          "stl": "0",
+          "blk": "0",
+          "to": "0",
+          "pf": "0",
+          "+/-": "0"
+        }
+      ],
+      "home_totals": {},
+      "away_totals": {}
+    },
+    "leaders": {
+      "leaders": [
+        {
+          "rank": "SPT",
+          "player": "26",
+          "value": "16"
+        },
+        {
+          "rank": "CWB",
+          "player": "26",
+          "value": "24"
+        },
+        {
+          "rank": "2",
+          "player": "Eyan Rene",
+          "value": "16"
+        },
+        {
+          "rank": "3",
+          "player": "Demetrius Thomas",
+          "value": "16"
+        },
+        {
+          "rank": "4",
+          "player": "Keshaun Mack",
+          "value": "10"
+        },
+        {
+          "rank": "5",
+          "player": "Ashton Edwards",
+          "value": "7"
+        },
+        {
+          "rank": "2",
+          "player": "Brian White",
+          "value": "14"
+        },
+        {
+          "rank": "3",
+          "player": "Eyan Rene",
+          "value": "10"
+        },
+        {
+          "rank": "4",
+          "player": "Edward Hampton",
+          "value": "10"
+        },
+        {
+          "rank": "5",
+          "player": "Devin Moody",
+          "value": "6"
+        },
+        {
+          "rank": "2",
+          "player": "Devin Moody",
+          "value": "2"
+        },
+        {
+          "rank": "3",
+          "player": "Keshaun Mack",
+          "value": "2"
+        },
+        {
+          "rank": "4",
+          "player": "Edward Hampton",
+          "value": "2"
+        },
+        {
+          "rank": "5",
+          "player": "Ashton Edwards",
+          "value": "1"
+        },
+        {
+          "rank": "2",
+          "player": "Eyan Rene",
+          "value": "1"
+        },
+        {
+          "rank": "3",
+          "player": "Devin Moody",
+          "value": "1"
+        },
+        {
+          "rank": "4",
+          "player": "",
+          "value": ""
+        },
+        {
+          "rank": "5",
+          "player": "",
+          "value": ""
+        },
+        {
+          "rank": "2",
+          "player": "Demetrius Thomas",
+          "value": "3"
+        },
+        {
+          "rank": "3",
+          "player": "Brian White",
+          "value": "1"
+        },
+        {
+          "rank": "4",
+          "player": "Keshaun Mack",
+          "value": "1"
+        },
+        {
+          "rank": "5",
+          "player": "Edward Hampton",
+          "value": "1"
+        },
+        {
+          "rank": "2",
+          "player": "Zoren Smith",
+          "value": "15"
+        },
+        {
+          "rank": "3",
+          "player": "Victor Evans",
+          "value": "13"
+        },
+        {
+          "rank": "4",
+          "player": "Raymond Hawkins",
+          "value": "11"
+        },
+        {
+          "rank": "5",
+          "player": "Kerwin Palacio",
+          "value": "8"
+        },
+        {
+          "rank": "2",
+          "player": "Zoren Smith",
+          "value": "9"
+        },
+        {
+          "rank": "3",
+          "player": "Kerwin Palacio",
+          "value": "5"
+        },
+        {
+          "rank": "4",
+          "player": "Jeremiah Toney",
+          "value": "5"
+        },
+        {
+          "rank": "5",
+          "player": "Jamie Carbajal",
+          "value": "3"
+        },
+        {
+          "rank": "2",
+          "player": "Victor Evans",
+          "value": "4"
+        },
+        {
+          "rank": "3",
+          "player": "Zoren Smith",
+          "value": "4"
+        },
+        {
+          "rank": "4",
+          "player": "Jeremiah Toney",
+          "value": "2"
+        },
+        {
+          "rank": "5",
+          "player": "Johan Bermudez",
+          "value": "1"
+        },
+        {
+          "rank": "2",
+          "player": "",
+          "value": ""
+        },
+        {
+          "rank": "3",
+          "player": "",
+          "value": ""
+        },
+        {
+          "rank": "4",
+          "player": "",
+          "value": ""
+        },
+        {
+          "rank": "5",
+          "player": "",
+          "value": ""
+        },
+        {
+          "rank": "2",
+          "player": "Victor Evans",
+          "value": "1"
+        },
+        {
+          "rank": "3",
+          "player": "Jeremiah Toney",
+          "value": "1"
+        },
+        {
+          "rank": "4",
+          "player": "Zoren Smith",
+          "value": "1"
+        },
+        {
+          "rank": "5",
+          "player": "",
+          "value": ""
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "San Pedro Tiger Sharks"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        },
+        {
+          "rank": "",
+          "player": "",
+          "value": "Cayo Western Ballaz"
+        }
+      ]
+    },
+    "playbyplay": {
+      "events": [
+        {
+          "seq": 1,
+          "period": null,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "91-85"
+        },
+        {
+          "seq": 2,
+          "period": null,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "91-85"
+        },
+        {
+          "seq": 3,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "rebound",
+          "points": null,
+          "score": "91-85"
+        },
+        {
+          "seq": 4,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Marcus Lewis",
+          "type": "unknown",
+          "points": null,
+          "score": "91-85"
+        },
+        {
+          "seq": 5,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "91-85"
+        },
+        {
+          "seq": 6,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 1,
+          "score": "91-85"
+        },
+        {
+          "seq": 7,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 1,
+          "score": "90-85"
+        },
+        {
+          "seq": 8,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "foul",
+          "points": null,
+          "score": "90-85"
+        },
+        {
+          "seq": 9,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "foul",
+          "points": null,
+          "score": "90-85"
+        },
+        {
+          "seq": 10,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "score",
+          "points": 3,
+          "score": "89-85"
+        },
+        {
+          "seq": 11,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "assist",
+          "points": null,
+          "score": "89-85"
+        },
+        {
+          "seq": 12,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "score",
+          "points": 2,
+          "score": "89-82"
+        },
+        {
+          "seq": 13,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "rebound",
+          "points": null,
+          "score": "89-82"
+        },
+        {
+          "seq": 14,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "89-82"
+        },
+        {
+          "seq": 15,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "turnover",
+          "points": null,
+          "score": "89-82"
+        },
+        {
+          "seq": 16,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "89-82"
+        },
+        {
+          "seq": 17,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "unknown",
+          "points": null,
+          "score": "89-82"
+        },
+        {
+          "seq": 18,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "score",
+          "points": 1,
+          "score": "87-82"
+        },
+        {
+          "seq": 19,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "87-82"
+        },
+        {
+          "seq": 20,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "foul",
+          "points": null,
+          "score": "87-82"
+        },
+        {
+          "seq": 21,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "foul",
+          "points": null,
+          "score": "87-82"
+        },
+        {
+          "seq": 22,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "assist",
+          "points": null,
+          "score": "87-82"
+        },
+        {
+          "seq": 23,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Marcus Lewis",
+          "type": "score",
+          "points": 3,
+          "score": "86-82"
+        },
+        {
+          "seq": 24,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "86-82"
+        },
+        {
+          "seq": 25,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "score",
+          "points": 2,
+          "score": "86-79"
+        },
+        {
+          "seq": 26,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "steal",
+          "points": null,
+          "score": "86-79"
+        },
+        {
+          "seq": 27,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "turnover",
+          "points": null,
+          "score": "86-79"
+        },
+        {
+          "seq": 28,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "rebound",
+          "points": null,
+          "score": "86-79"
+        },
+        {
+          "seq": 29,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "86-79"
+        },
+        {
+          "seq": 30,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "86-79"
+        },
+        {
+          "seq": 31,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "foul",
+          "points": null,
+          "score": "86-79"
+        },
+        {
+          "seq": 32,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "foul",
+          "points": null,
+          "score": "86-79"
+        },
+        {
+          "seq": 33,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "rebound",
+          "points": null,
+          "score": "86-79"
+        },
+        {
+          "seq": 34,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "86-79"
+        },
+        {
+          "seq": 35,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "rebound",
+          "points": null,
+          "score": "86-79"
+        },
+        {
+          "seq": 36,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "86-79"
+        },
+        {
+          "seq": 37,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "unknown",
+          "points": null,
+          "score": "86-79"
+        },
+        {
+          "seq": 38,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Marcus Lewis",
+          "type": "unknown",
+          "points": null,
+          "score": "86-79"
+        },
+        {
+          "seq": 39,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "foul",
+          "points": null,
+          "score": "86-79"
+        },
+        {
+          "seq": 40,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "foul",
+          "points": null,
+          "score": "86-79"
+        },
+        {
+          "seq": 41,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 2,
+          "score": "84-79"
+        },
+        {
+          "seq": 42,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "steal",
+          "points": null,
+          "score": "84-79"
+        },
+        {
+          "seq": 43,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "turnover",
+          "points": null,
+          "score": "84-79"
+        },
+        {
+          "seq": 44,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "rebound",
+          "points": null,
+          "score": "84-79"
+        },
+        {
+          "seq": 45,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "84-79"
+        },
+        {
+          "seq": 46,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "turnover",
+          "points": null,
+          "score": "84-79"
+        },
+        {
+          "seq": 47,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "assist",
+          "points": null,
+          "score": "84-79"
+        },
+        {
+          "seq": 48,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "score",
+          "points": 2,
+          "score": "82-79"
+        },
+        {
+          "seq": 49,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "unknown",
+          "points": null,
+          "score": "82-79"
+        },
+        {
+          "seq": 50,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "82-79"
+        },
+        {
+          "seq": 51,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Marcus Lewis",
+          "type": "unknown",
+          "points": null,
+          "score": "82-79"
+        },
+        {
+          "seq": 52,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "82-79"
+        },
+        {
+          "seq": 53,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "82-79"
+        },
+        {
+          "seq": 54,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "82-79"
+        },
+        {
+          "seq": 55,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "82-79"
+        },
+        {
+          "seq": 56,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "assist",
+          "points": null,
+          "score": "82-79"
+        },
+        {
+          "seq": 57,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Marcus Lewis",
+          "type": "score",
+          "points": 2,
+          "score": "80-79"
+        },
+        {
+          "seq": 58,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "rebound",
+          "points": null,
+          "score": "80-79"
+        },
+        {
+          "seq": 59,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "unknown",
+          "points": null,
+          "score": "80-79"
+        },
+        {
+          "seq": 60,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "80-79"
+        },
+        {
+          "seq": 61,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "unknown",
+          "points": null,
+          "score": "80-79"
+        },
+        {
+          "seq": 62,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "rebound",
+          "points": null,
+          "score": "80-79"
+        },
+        {
+          "seq": 63,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "80-79"
+        },
+        {
+          "seq": 64,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "80-79"
+        },
+        {
+          "seq": 65,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Aaron Allison",
+          "type": "unknown",
+          "points": null,
+          "score": "80-79"
+        },
+        {
+          "seq": 66,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "unknown",
+          "points": null,
+          "score": "80-79"
+        },
+        {
+          "seq": 67,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "80-79"
+        },
+        {
+          "seq": 68,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "unknown",
+          "points": null,
+          "score": "80-79"
+        },
+        {
+          "seq": 69,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "foul",
+          "points": null,
+          "score": "80-79"
+        },
+        {
+          "seq": 70,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Aaron Allison",
+          "type": "foul",
+          "points": null,
+          "score": "80-79"
+        },
+        {
+          "seq": 71,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "score",
+          "points": 2,
+          "score": "80-77"
+        },
+        {
+          "seq": 72,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "rebound",
+          "points": null,
+          "score": "80-77"
+        },
+        {
+          "seq": 73,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Aaron Allison",
+          "type": "unknown",
+          "points": null,
+          "score": "80-77"
+        },
+        {
+          "seq": 74,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "rebound",
+          "points": null,
+          "score": "80-77"
+        },
+        {
+          "seq": 75,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "80-77"
+        },
+        {
+          "seq": 76,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "80-77"
+        },
+        {
+          "seq": 77,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "foul",
+          "points": null,
+          "score": "80-77"
+        },
+        {
+          "seq": 78,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Aaron Allison",
+          "type": "foul",
+          "points": null,
+          "score": "80-77"
+        },
+        {
+          "seq": 79,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "rebound",
+          "points": null,
+          "score": "80-77"
+        },
+        {
+          "seq": 80,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Marcus Lewis",
+          "type": "unknown",
+          "points": null,
+          "score": "80-77"
+        },
+        {
+          "seq": 81,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "assist",
+          "points": null,
+          "score": "80-77"
+        },
+        {
+          "seq": 82,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "score",
+          "points": 2,
+          "score": "80-75"
+        },
+        {
+          "seq": 83,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "rebound",
+          "points": null,
+          "score": "80-75"
+        },
+        {
+          "seq": 84,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Aaron Allison",
+          "type": "unknown",
+          "points": null,
+          "score": "80-75"
+        },
+        {
+          "seq": 85,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Aaron Allison",
+          "type": "score",
+          "points": 1,
+          "score": "78-75"
+        },
+        {
+          "seq": 86,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "78-75"
+        },
+        {
+          "seq": 87,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Aaron Allison",
+          "type": "unknown",
+          "points": null,
+          "score": "78-75"
+        },
+        {
+          "seq": 88,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "foul",
+          "points": null,
+          "score": "78-75"
+        },
+        {
+          "seq": 89,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "foul",
+          "points": null,
+          "score": "78-75"
+        },
+        {
+          "seq": 90,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "rebound",
+          "points": null,
+          "score": "78-75"
+        },
+        {
+          "seq": 91,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "unknown",
+          "points": null,
+          "score": "78-75"
+        },
+        {
+          "seq": 92,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 1,
+          "score": "78-74"
+        },
+        {
+          "seq": 93,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 1,
+          "score": "77-74"
+        },
+        {
+          "seq": 94,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "foul",
+          "points": null,
+          "score": "77-74"
+        },
+        {
+          "seq": 95,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Marcus Lewis",
+          "type": "foul",
+          "points": null,
+          "score": "77-74"
+        },
+        {
+          "seq": 96,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "77-74"
+        },
+        {
+          "seq": 97,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "unknown",
+          "points": null,
+          "score": "77-74"
+        },
+        {
+          "seq": 98,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "rebound",
+          "points": null,
+          "score": "77-74"
+        },
+        {
+          "seq": 99,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "77-74"
+        },
+        {
+          "seq": 100,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 3,
+          "score": "76-74"
+        },
+        {
+          "seq": 101,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "score",
+          "points": 2,
+          "score": "73-74"
+        },
+        {
+          "seq": 102,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "73-74"
+        },
+        {
+          "seq": 103,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "73-74"
+        },
+        {
+          "seq": 104,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "foul",
+          "points": null,
+          "score": "73-74"
+        },
+        {
+          "seq": 105,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "foul",
+          "points": null,
+          "score": "73-74"
+        },
+        {
+          "seq": 106,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 1,
+          "score": "73-72"
+        },
+        {
+          "seq": 107,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "73-72"
+        },
+        {
+          "seq": 108,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "foul",
+          "points": null,
+          "score": "73-72"
+        },
+        {
+          "seq": 109,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "foul",
+          "points": null,
+          "score": "73-72"
+        },
+        {
+          "seq": 110,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "rebound",
+          "points": null,
+          "score": "73-72"
+        },
+        {
+          "seq": 111,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "unknown",
+          "points": null,
+          "score": "73-72"
+        },
+        {
+          "seq": 112,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 1,
+          "score": "72-72"
+        },
+        {
+          "seq": 113,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "unknown",
+          "points": null,
+          "score": "72-72"
+        },
+        {
+          "seq": 114,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Marcus Lewis",
+          "type": "unknown",
+          "points": null,
+          "score": "72-72"
+        },
+        {
+          "seq": 115,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "foul",
+          "points": null,
+          "score": "72-72"
+        },
+        {
+          "seq": 116,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "foul",
+          "points": null,
+          "score": "72-72"
+        },
+        {
+          "seq": 117,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 2,
+          "score": "71-72"
+        },
+        {
+          "seq": 118,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "foul",
+          "points": null,
+          "score": "71-72"
+        },
+        {
+          "seq": 119,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "foul",
+          "points": null,
+          "score": "71-72"
+        },
+        {
+          "seq": 120,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "rebound",
+          "points": null,
+          "score": "71-72"
+        },
+        {
+          "seq": 121,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "unknown",
+          "points": null,
+          "score": "71-72"
+        },
+        {
+          "seq": 122,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "rebound",
+          "points": null,
+          "score": "71-72"
+        },
+        {
+          "seq": 123,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "71-72"
+        },
+        {
+          "seq": 124,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "unknown",
+          "points": null,
+          "score": "71-72"
+        },
+        {
+          "seq": 125,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "unknown",
+          "points": null,
+          "score": "71-72"
+        },
+        {
+          "seq": 126,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "rebound",
+          "points": null,
+          "score": "71-72"
+        },
+        {
+          "seq": 127,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "71-72"
+        },
+        {
+          "seq": 128,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "rebound",
+          "points": null,
+          "score": "71-72"
+        },
+        {
+          "seq": 129,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "unknown",
+          "points": null,
+          "score": "71-72"
+        },
+        {
+          "seq": 130,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "score",
+          "points": 1,
+          "score": "69-72"
+        },
+        {
+          "seq": 131,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "score",
+          "points": 1,
+          "score": "69-71"
+        },
+        {
+          "seq": 132,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "unknown",
+          "points": null,
+          "score": "69-71"
+        },
+        {
+          "seq": 133,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "69-71"
+        },
+        {
+          "seq": 134,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "foul",
+          "points": null,
+          "score": "69-71"
+        },
+        {
+          "seq": 135,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "foul",
+          "points": null,
+          "score": "69-71"
+        },
+        {
+          "seq": 136,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "rebound",
+          "points": null,
+          "score": "69-71"
+        },
+        {
+          "seq": 137,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "69-71"
+        },
+        {
+          "seq": 138,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "rebound",
+          "points": null,
+          "score": "69-71"
+        },
+        {
+          "seq": 139,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "69-71"
+        },
+        {
+          "seq": 140,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "foul",
+          "points": null,
+          "score": "69-71"
+        },
+        {
+          "seq": 141,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "foul",
+          "points": null,
+          "score": "69-71"
+        },
+        {
+          "seq": 142,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "score",
+          "points": 1,
+          "score": "69-70"
+        },
+        {
+          "seq": 143,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "score",
+          "points": 1,
+          "score": "68-70"
+        },
+        {
+          "seq": 144,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 145,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 146,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 147,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "unknown",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 148,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "foul",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 149,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "foul",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 150,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "rebound",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 151,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "unknown",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 152,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "rebound",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 153,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 154,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "rebound",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 155,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "unknown",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 156,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "unknown",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 157,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 158,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 159,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "assist",
+          "points": null,
+          "score": "68-70"
+        },
+        {
+          "seq": 160,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "score",
+          "points": 3,
+          "score": "67-70"
+        },
+        {
+          "seq": 161,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "rebound",
+          "points": null,
+          "score": "67-70"
+        },
+        {
+          "seq": 162,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "block",
+          "points": null,
+          "score": "67-70"
+        },
+        {
+          "seq": 163,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "unknown",
+          "points": null,
+          "score": "67-70"
+        },
+        {
+          "seq": 164,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "assist",
+          "points": null,
+          "score": "67-70"
+        },
+        {
+          "seq": 165,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "score",
+          "points": 3,
+          "score": "64-70"
+        },
+        {
+          "seq": 166,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "rebound",
+          "points": null,
+          "score": "64-70"
+        },
+        {
+          "seq": 167,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "64-70"
+        },
+        {
+          "seq": 168,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "steal",
+          "points": null,
+          "score": "64-70"
+        },
+        {
+          "seq": 169,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "turnover",
+          "points": null,
+          "score": "64-70"
+        },
+        {
+          "seq": 170,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "foul",
+          "points": null,
+          "score": "64-70"
+        },
+        {
+          "seq": 171,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "foul",
+          "points": null,
+          "score": "64-70"
+        },
+        {
+          "seq": 172,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "rebound",
+          "points": null,
+          "score": "64-70"
+        },
+        {
+          "seq": 173,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "64-70"
+        },
+        {
+          "seq": 174,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "rebound",
+          "points": null,
+          "score": "64-70"
+        },
+        {
+          "seq": 175,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "unknown",
+          "points": null,
+          "score": "64-70"
+        },
+        {
+          "seq": 176,
+          "period": null,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 177,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "unknown",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 178,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "unknown",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 179,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 180,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Aaron Allison",
+          "type": "unknown",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 181,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 182,
+          "period": 4,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "unknown",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 183,
+          "period": null,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 184,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "steal",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 185,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "turnover",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 186,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "rebound",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 187,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "unknown",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 188,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "rebound",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 189,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "unknown",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 190,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "foul",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 191,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "foul",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 192,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "score",
+          "points": 2,
+          "score": "61-70"
+        },
+        {
+          "seq": 193,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "rebound",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 194,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 195,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "rebound",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 196,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "unknown",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 197,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "unknown",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 198,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "unknown",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 199,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "unknown",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 200,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "foul",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 201,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "foul",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 202,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "turnover",
+          "points": null,
+          "score": "61-70"
+        },
+        {
+          "seq": 203,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "score",
+          "points": 1,
+          "score": "59-70"
+        },
+        {
+          "seq": 204,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "score",
+          "points": 1,
+          "score": "58-70"
+        },
+        {
+          "seq": 205,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "foul",
+          "points": null,
+          "score": "58-70"
+        },
+        {
+          "seq": 206,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "foul",
+          "points": null,
+          "score": "58-70"
+        },
+        {
+          "seq": 207,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "rebound",
+          "points": null,
+          "score": "58-70"
+        },
+        {
+          "seq": 208,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "58-70"
+        },
+        {
+          "seq": 209,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "foul",
+          "points": null,
+          "score": "58-70"
+        },
+        {
+          "seq": 210,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "turnover",
+          "points": null,
+          "score": "58-70"
+        },
+        {
+          "seq": 211,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "foul",
+          "points": null,
+          "score": "58-70"
+        },
+        {
+          "seq": 212,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "rebound",
+          "points": null,
+          "score": "58-70"
+        },
+        {
+          "seq": 213,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "block",
+          "points": null,
+          "score": "58-70"
+        },
+        {
+          "seq": 214,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "unknown",
+          "points": null,
+          "score": "58-70"
+        },
+        {
+          "seq": 215,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "turnover",
+          "points": null,
+          "score": "58-70"
+        },
+        {
+          "seq": 216,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "rebound",
+          "points": null,
+          "score": "58-70"
+        },
+        {
+          "seq": 217,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "58-70"
+        },
+        {
+          "seq": 218,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "assist",
+          "points": null,
+          "score": "58-70"
+        },
+        {
+          "seq": 219,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "score",
+          "points": 2,
+          "score": "57-70"
+        },
+        {
+          "seq": 220,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "unknown",
+          "points": null,
+          "score": "57-70"
+        },
+        {
+          "seq": 221,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "unknown",
+          "points": null,
+          "score": "57-70"
+        },
+        {
+          "seq": 222,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "score",
+          "points": 1,
+          "score": "57-68"
+        },
+        {
+          "seq": 223,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "score",
+          "points": 1,
+          "score": "56-68"
+        },
+        {
+          "seq": 224,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "unknown",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 225,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "unknown",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 226,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "foul",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 227,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "foul",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 228,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "unknown",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 229,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "unknown",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 230,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "unknown",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 231,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Aaron Allison",
+          "type": "unknown",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 232,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "foul",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 233,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "foul",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 234,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "steal",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 235,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "turnover",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 236,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "foul",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 237,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "foul",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 238,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "rebound",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 239,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "unknown",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 240,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "rebound",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 241,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 242,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "unknown",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 243,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "unknown",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 244,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "turnover",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 245,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "assist",
+          "points": null,
+          "score": "56-68"
+        },
+        {
+          "seq": 246,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "score",
+          "points": 2,
+          "score": "55-68"
+        },
+        {
+          "seq": 247,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "rebound",
+          "points": null,
+          "score": "55-68"
+        },
+        {
+          "seq": 248,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "block",
+          "points": null,
+          "score": "55-68"
+        },
+        {
+          "seq": 249,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "55-68"
+        },
+        {
+          "seq": 250,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "rebound",
+          "points": null,
+          "score": "55-68"
+        },
+        {
+          "seq": 251,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "unknown",
+          "points": null,
+          "score": "55-68"
+        },
+        {
+          "seq": 252,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "rebound",
+          "points": null,
+          "score": "55-68"
+        },
+        {
+          "seq": 253,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "unknown",
+          "points": null,
+          "score": "55-68"
+        },
+        {
+          "seq": 254,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "rebound",
+          "points": null,
+          "score": "55-68"
+        },
+        {
+          "seq": 255,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "unknown",
+          "points": null,
+          "score": "55-68"
+        },
+        {
+          "seq": 256,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "rebound",
+          "points": null,
+          "score": "55-68"
+        },
+        {
+          "seq": 257,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "unknown",
+          "points": null,
+          "score": "55-68"
+        },
+        {
+          "seq": 258,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "score",
+          "points": 1,
+          "score": "53-68"
+        },
+        {
+          "seq": 259,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "53-68"
+        },
+        {
+          "seq": 260,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "53-68"
+        },
+        {
+          "seq": 261,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "unknown",
+          "points": null,
+          "score": "53-68"
+        },
+        {
+          "seq": 262,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "unknown",
+          "points": null,
+          "score": "53-68"
+        },
+        {
+          "seq": 263,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "53-68"
+        },
+        {
+          "seq": 264,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "unknown",
+          "points": null,
+          "score": "53-68"
+        },
+        {
+          "seq": 265,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "foul",
+          "points": null,
+          "score": "53-68"
+        },
+        {
+          "seq": 266,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "foul",
+          "points": null,
+          "score": "53-68"
+        },
+        {
+          "seq": 267,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "score",
+          "points": 3,
+          "score": "52-68"
+        },
+        {
+          "seq": 268,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "rebound",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 269,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "unknown",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 270,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "rebound",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 271,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "unknown",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 272,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "rebound",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 273,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "unknown",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 274,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "rebound",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 275,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 276,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "steal",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 277,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "turnover",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 278,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "foul",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 279,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "foul",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 280,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "rebound",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 281,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "unknown",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 282,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 283,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "unknown",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 284,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "turnover",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 285,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "rebound",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 286,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "unknown",
+          "points": null,
+          "score": "52-68"
+        },
+        {
+          "seq": 287,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "score",
+          "points": 2,
+          "score": "52-65"
+        },
+        {
+          "seq": 288,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "unknown",
+          "points": null,
+          "score": "52-65"
+        },
+        {
+          "seq": 289,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "unknown",
+          "points": null,
+          "score": "52-65"
+        },
+        {
+          "seq": 290,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "unknown",
+          "points": null,
+          "score": "52-65"
+        },
+        {
+          "seq": 291,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "52-65"
+        },
+        {
+          "seq": 292,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "unknown",
+          "points": null,
+          "score": "52-65"
+        },
+        {
+          "seq": 293,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "52-65"
+        },
+        {
+          "seq": 294,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "foul",
+          "points": null,
+          "score": "52-65"
+        },
+        {
+          "seq": 295,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "foul",
+          "points": null,
+          "score": "52-65"
+        },
+        {
+          "seq": 296,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "assist",
+          "points": null,
+          "score": "52-65"
+        },
+        {
+          "seq": 297,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "score",
+          "points": 2,
+          "score": "50-65"
+        },
+        {
+          "seq": 298,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "rebound",
+          "points": null,
+          "score": "50-65"
+        },
+        {
+          "seq": 299,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "unknown",
+          "points": null,
+          "score": "50-65"
+        },
+        {
+          "seq": 300,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "score",
+          "points": 3,
+          "score": "50-63"
+        },
+        {
+          "seq": 301,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "score",
+          "points": 2,
+          "score": "50-60"
+        },
+        {
+          "seq": 302,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "assist",
+          "points": null,
+          "score": "50-60"
+        },
+        {
+          "seq": 303,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "score",
+          "points": 2,
+          "score": "48-60"
+        },
+        {
+          "seq": 304,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "rebound",
+          "points": null,
+          "score": "48-60"
+        },
+        {
+          "seq": 305,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "48-60"
+        },
+        {
+          "seq": 306,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "foul",
+          "points": null,
+          "score": "48-60"
+        },
+        {
+          "seq": 307,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "foul",
+          "points": null,
+          "score": "48-60"
+        },
+        {
+          "seq": 308,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "assist",
+          "points": null,
+          "score": "48-60"
+        },
+        {
+          "seq": 309,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "score",
+          "points": 3,
+          "score": "48-58"
+        },
+        {
+          "seq": 310,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "score",
+          "points": 2,
+          "score": "48-55"
+        },
+        {
+          "seq": 311,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "rebound",
+          "points": null,
+          "score": "48-55"
+        },
+        {
+          "seq": 312,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "unknown",
+          "points": null,
+          "score": "48-55"
+        },
+        {
+          "seq": 313,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "score",
+          "points": 1,
+          "score": "46-55"
+        },
+        {
+          "seq": 314,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "foul",
+          "points": null,
+          "score": "46-55"
+        },
+        {
+          "seq": 315,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "foul",
+          "points": null,
+          "score": "46-55"
+        },
+        {
+          "seq": 316,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 2,
+          "score": "46-54"
+        },
+        {
+          "seq": 317,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "rebound",
+          "points": null,
+          "score": "46-54"
+        },
+        {
+          "seq": 318,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "unknown",
+          "points": null,
+          "score": "46-54"
+        },
+        {
+          "seq": 319,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "rebound",
+          "points": null,
+          "score": "46-54"
+        },
+        {
+          "seq": 320,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "46-54"
+        },
+        {
+          "seq": 321,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "rebound",
+          "points": null,
+          "score": "46-54"
+        },
+        {
+          "seq": 322,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "unknown",
+          "points": null,
+          "score": "46-54"
+        },
+        {
+          "seq": 323,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "rebound",
+          "points": null,
+          "score": "46-54"
+        },
+        {
+          "seq": 324,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "unknown",
+          "points": null,
+          "score": "46-54"
+        },
+        {
+          "seq": 325,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "score",
+          "points": 2,
+          "score": "44-54"
+        },
+        {
+          "seq": 326,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "rebound",
+          "points": null,
+          "score": "44-54"
+        },
+        {
+          "seq": 327,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "unknown",
+          "points": null,
+          "score": "44-54"
+        },
+        {
+          "seq": 328,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "score",
+          "points": 2,
+          "score": "44-52"
+        },
+        {
+          "seq": 329,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "44-52"
+        },
+        {
+          "seq": 330,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "44-52"
+        },
+        {
+          "seq": 331,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "rebound",
+          "points": null,
+          "score": "44-52"
+        },
+        {
+          "seq": 332,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "44-52"
+        },
+        {
+          "seq": 333,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "44-52"
+        },
+        {
+          "seq": 334,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "44-52"
+        },
+        {
+          "seq": 335,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "44-52"
+        },
+        {
+          "seq": 336,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "44-52"
+        },
+        {
+          "seq": 337,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "assist",
+          "points": null,
+          "score": "44-52"
+        },
+        {
+          "seq": 338,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "score",
+          "points": 2,
+          "score": "42-52"
+        },
+        {
+          "seq": 339,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "steal",
+          "points": null,
+          "score": "42-52"
+        },
+        {
+          "seq": 340,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "turnover",
+          "points": null,
+          "score": "42-52"
+        },
+        {
+          "seq": 341,
+          "period": null,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "42-50"
+        },
+        {
+          "seq": 342,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "unknown",
+          "points": null,
+          "score": "42-50"
+        },
+        {
+          "seq": 343,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "unknown",
+          "points": null,
+          "score": "42-50"
+        },
+        {
+          "seq": 344,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "unknown",
+          "points": null,
+          "score": "42-50"
+        },
+        {
+          "seq": 345,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "42-50"
+        },
+        {
+          "seq": 346,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "unknown",
+          "points": null,
+          "score": "42-50"
+        },
+        {
+          "seq": 347,
+          "period": 3,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "unknown",
+          "points": null,
+          "score": "42-50"
+        },
+        {
+          "seq": 348,
+          "period": null,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "42-50"
+        },
+        {
+          "seq": 349,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "42-50"
+        },
+        {
+          "seq": 350,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "turnover",
+          "points": null,
+          "score": "42-50"
+        },
+        {
+          "seq": 351,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 1,
+          "score": "42-50"
+        },
+        {
+          "seq": 352,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 1,
+          "score": "41-50"
+        },
+        {
+          "seq": 353,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "foul",
+          "points": null,
+          "score": "41-50"
+        },
+        {
+          "seq": 354,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "foul",
+          "points": null,
+          "score": "41-50"
+        },
+        {
+          "seq": 355,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "41-50"
+        },
+        {
+          "seq": 356,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "rebound",
+          "points": null,
+          "score": "41-50"
+        },
+        {
+          "seq": 357,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "unknown",
+          "points": null,
+          "score": "41-50"
+        },
+        {
+          "seq": 358,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "rebound",
+          "points": null,
+          "score": "41-50"
+        },
+        {
+          "seq": 359,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "41-50"
+        },
+        {
+          "seq": 360,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "rebound",
+          "points": null,
+          "score": "41-50"
+        },
+        {
+          "seq": 361,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "41-50"
+        },
+        {
+          "seq": 362,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "score",
+          "points": 2,
+          "score": "40-50"
+        },
+        {
+          "seq": 363,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "rebound",
+          "points": null,
+          "score": "40-50"
+        },
+        {
+          "seq": 364,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "unknown",
+          "points": null,
+          "score": "40-50"
+        },
+        {
+          "seq": 365,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "assist",
+          "points": null,
+          "score": "40-50"
+        },
+        {
+          "seq": 366,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "score",
+          "points": 3,
+          "score": "40-48"
+        },
+        {
+          "seq": 367,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "score",
+          "points": 3,
+          "score": "40-45"
+        },
+        {
+          "seq": 368,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "unknown",
+          "points": null,
+          "score": "40-45"
+        },
+        {
+          "seq": 369,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "unknown",
+          "points": null,
+          "score": "40-45"
+        },
+        {
+          "seq": 370,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "turnover",
+          "points": null,
+          "score": "40-45"
+        },
+        {
+          "seq": 371,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "rebound",
+          "points": null,
+          "score": "40-45"
+        },
+        {
+          "seq": 372,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "unknown",
+          "points": null,
+          "score": "40-45"
+        },
+        {
+          "seq": 373,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "40-45"
+        },
+        {
+          "seq": 374,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "assist",
+          "points": null,
+          "score": "40-45"
+        },
+        {
+          "seq": 375,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "score",
+          "points": 3,
+          "score": "37-45"
+        },
+        {
+          "seq": 376,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 2,
+          "score": "37-42"
+        },
+        {
+          "seq": 377,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "score",
+          "points": 2,
+          "score": "35-42"
+        },
+        {
+          "seq": 378,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "rebound",
+          "points": null,
+          "score": "35-42"
+        },
+        {
+          "seq": 379,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "unknown",
+          "points": null,
+          "score": "35-42"
+        },
+        {
+          "seq": 380,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "unknown",
+          "points": null,
+          "score": "35-42"
+        },
+        {
+          "seq": 381,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "foul",
+          "points": null,
+          "score": "35-42"
+        },
+        {
+          "seq": 382,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "foul",
+          "points": null,
+          "score": "35-42"
+        },
+        {
+          "seq": 383,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "assist",
+          "points": null,
+          "score": "35-42"
+        },
+        {
+          "seq": 384,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "score",
+          "points": 2,
+          "score": "35-40"
+        },
+        {
+          "seq": 385,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "rebound",
+          "points": null,
+          "score": "35-40"
+        },
+        {
+          "seq": 386,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "unknown",
+          "points": null,
+          "score": "35-40"
+        },
+        {
+          "seq": 387,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "rebound",
+          "points": null,
+          "score": "35-40"
+        },
+        {
+          "seq": 388,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "unknown",
+          "points": null,
+          "score": "35-40"
+        },
+        {
+          "seq": 389,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "rebound",
+          "points": null,
+          "score": "35-40"
+        },
+        {
+          "seq": 390,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "35-40"
+        },
+        {
+          "seq": 391,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "rebound",
+          "points": null,
+          "score": "35-40"
+        },
+        {
+          "seq": 392,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "unknown",
+          "points": null,
+          "score": "35-40"
+        },
+        {
+          "seq": 393,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 2,
+          "score": "35-38"
+        },
+        {
+          "seq": 394,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "rebound",
+          "points": null,
+          "score": "35-38"
+        },
+        {
+          "seq": 395,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "unknown",
+          "points": null,
+          "score": "35-38"
+        },
+        {
+          "seq": 396,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "rebound",
+          "points": null,
+          "score": "35-38"
+        },
+        {
+          "seq": 397,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "unknown",
+          "points": null,
+          "score": "35-38"
+        },
+        {
+          "seq": 398,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "unknown",
+          "points": null,
+          "score": "35-38"
+        },
+        {
+          "seq": 399,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "unknown",
+          "points": null,
+          "score": "35-38"
+        },
+        {
+          "seq": 400,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "foul",
+          "points": null,
+          "score": "35-38"
+        },
+        {
+          "seq": 401,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "foul",
+          "points": null,
+          "score": "35-38"
+        },
+        {
+          "seq": 402,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "score",
+          "points": 2,
+          "score": "33-38"
+        },
+        {
+          "seq": 403,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "unknown",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 404,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "unknown",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 405,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 406,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Keith Pollard",
+          "type": "unknown",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 407,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "turnover",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 408,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "steal",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 409,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "turnover",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 410,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "rebound",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 411,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "unknown",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 412,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "turnover",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 413,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "rebound",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 414,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 415,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 416,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 417,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "steal",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 418,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "turnover",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 419,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 420,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "unknown",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 421,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "unknown",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 422,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 423,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "turnover",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 424,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "rebound",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 425,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 426,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "rebound",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 427,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "unknown",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 428,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "unknown",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 429,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "unknown",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 430,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "assist",
+          "points": null,
+          "score": "33-38"
+        },
+        {
+          "seq": 431,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "score",
+          "points": 3,
+          "score": "33-36"
+        },
+        {
+          "seq": 432,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "rebound",
+          "points": null,
+          "score": "33-36"
+        },
+        {
+          "seq": 433,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "33-36"
+        },
+        {
+          "seq": 434,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "turnover",
+          "points": null,
+          "score": "33-36"
+        },
+        {
+          "seq": 435,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "rebound",
+          "points": null,
+          "score": "33-36"
+        },
+        {
+          "seq": 436,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "33-36"
+        },
+        {
+          "seq": 437,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "33-36"
+        },
+        {
+          "seq": 438,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "unknown",
+          "points": null,
+          "score": "33-36"
+        },
+        {
+          "seq": 439,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "score",
+          "points": 1,
+          "score": "33-33"
+        },
+        {
+          "seq": 440,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "33-33"
+        },
+        {
+          "seq": 441,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "unknown",
+          "points": null,
+          "score": "33-33"
+        },
+        {
+          "seq": 442,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "unknown",
+          "points": null,
+          "score": "33-33"
+        },
+        {
+          "seq": 443,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "foul",
+          "points": null,
+          "score": "33-33"
+        },
+        {
+          "seq": 444,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "foul",
+          "points": null,
+          "score": "33-33"
+        },
+        {
+          "seq": 445,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "score",
+          "points": 1,
+          "score": "32-33"
+        },
+        {
+          "seq": 446,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "score",
+          "points": 1,
+          "score": "32-32"
+        },
+        {
+          "seq": 447,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "foul",
+          "points": null,
+          "score": "32-32"
+        },
+        {
+          "seq": 448,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "foul",
+          "points": null,
+          "score": "32-32"
+        },
+        {
+          "seq": 449,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "32-32"
+        },
+        {
+          "seq": 450,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 2,
+          "score": "32-31"
+        },
+        {
+          "seq": 451,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "rebound",
+          "points": null,
+          "score": "32-31"
+        },
+        {
+          "seq": 452,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "unknown",
+          "points": null,
+          "score": "32-31"
+        },
+        {
+          "seq": 453,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "rebound",
+          "points": null,
+          "score": "32-31"
+        },
+        {
+          "seq": 454,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "32-31"
+        },
+        {
+          "seq": 455,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "score",
+          "points": 2,
+          "score": "30-31"
+        },
+        {
+          "seq": 456,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "assist",
+          "points": null,
+          "score": "30-31"
+        },
+        {
+          "seq": 457,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "score",
+          "points": 2,
+          "score": "30-29"
+        },
+        {
+          "seq": 458,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "rebound",
+          "points": null,
+          "score": "30-29"
+        },
+        {
+          "seq": 459,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "unknown",
+          "points": null,
+          "score": "30-29"
+        },
+        {
+          "seq": 460,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "rebound",
+          "points": null,
+          "score": "30-29"
+        },
+        {
+          "seq": 461,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "30-29"
+        },
+        {
+          "seq": 462,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "score",
+          "points": 2,
+          "score": "28-29"
+        },
+        {
+          "seq": 463,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "unknown",
+          "points": null,
+          "score": "28-29"
+        },
+        {
+          "seq": 464,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "28-29"
+        },
+        {
+          "seq": 465,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "foul",
+          "points": null,
+          "score": "28-29"
+        },
+        {
+          "seq": 466,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "turnover",
+          "points": null,
+          "score": "28-29"
+        },
+        {
+          "seq": 467,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "foul",
+          "points": null,
+          "score": "28-29"
+        },
+        {
+          "seq": 468,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "28-29"
+        },
+        {
+          "seq": 469,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "unknown",
+          "points": null,
+          "score": "28-29"
+        },
+        {
+          "seq": 470,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "score",
+          "points": 2,
+          "score": "28-27"
+        },
+        {
+          "seq": 471,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "28-27"
+        },
+        {
+          "seq": 472,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "unknown",
+          "points": null,
+          "score": "28-27"
+        },
+        {
+          "seq": 473,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "rebound",
+          "points": null,
+          "score": "28-27"
+        },
+        {
+          "seq": 474,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "28-27"
+        },
+        {
+          "seq": 475,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "28-27"
+        },
+        {
+          "seq": 476,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "unknown",
+          "points": null,
+          "score": "28-27"
+        },
+        {
+          "seq": 477,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "score",
+          "points": 1,
+          "score": "26-27"
+        },
+        {
+          "seq": 478,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Aaron Allison",
+          "type": "unknown",
+          "points": null,
+          "score": "26-27"
+        },
+        {
+          "seq": 479,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "26-27"
+        },
+        {
+          "seq": 480,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "foul",
+          "points": null,
+          "score": "26-27"
+        },
+        {
+          "seq": 481,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "foul",
+          "points": null,
+          "score": "26-27"
+        },
+        {
+          "seq": 482,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Aaron Allison",
+          "type": "rebound",
+          "points": null,
+          "score": "26-27"
+        },
+        {
+          "seq": 483,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "26-27"
+        },
+        {
+          "seq": 484,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "steal",
+          "points": null,
+          "score": "26-27"
+        },
+        {
+          "seq": 485,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Aaron Allison",
+          "type": "turnover",
+          "points": null,
+          "score": "26-27"
+        },
+        {
+          "seq": 486,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "turnover",
+          "points": null,
+          "score": "26-27"
+        },
+        {
+          "seq": 487,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "rebound",
+          "points": null,
+          "score": "26-27"
+        },
+        {
+          "seq": 488,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "unknown",
+          "points": null,
+          "score": "26-27"
+        },
+        {
+          "seq": 489,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "rebound",
+          "points": null,
+          "score": "26-27"
+        },
+        {
+          "seq": 490,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "unknown",
+          "points": null,
+          "score": "26-27"
+        },
+        {
+          "seq": 491,
+          "period": null,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 492,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Ashton Edwards",
+          "type": "unknown",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 493,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 494,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 495,
+          "period": 2,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 496,
+          "period": null,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 497,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "rebound",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 498,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 499,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "rebound",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 500,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "unknown",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 501,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 2,
+          "score": "26-26"
+        },
+        {
+          "seq": 502,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "rebound",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 503,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "unknown",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 504,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "rebound",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 505,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "block",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 506,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Aaron Allison",
+          "type": "unknown",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 507,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "rebound",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 508,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "unknown",
+          "points": null,
+          "score": "26-26"
+        },
+        {
+          "seq": 509,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "score",
+          "points": 1,
+          "score": "24-26"
+        },
+        {
+          "seq": 510,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "24-26"
+        },
+        {
+          "seq": 511,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Jamie Carbajal",
+          "type": "unknown",
+          "points": null,
+          "score": "24-26"
+        },
+        {
+          "seq": 512,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "foul",
+          "points": null,
+          "score": "24-26"
+        },
+        {
+          "seq": 513,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "foul",
+          "points": null,
+          "score": "24-26"
+        },
+        {
+          "seq": 514,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "assist",
+          "points": null,
+          "score": "24-26"
+        },
+        {
+          "seq": 515,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "score",
+          "points": 2,
+          "score": "23-26"
+        },
+        {
+          "seq": 516,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "steal",
+          "points": null,
+          "score": "23-26"
+        },
+        {
+          "seq": 517,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "turnover",
+          "points": null,
+          "score": "23-26"
+        },
+        {
+          "seq": 518,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "assist",
+          "points": null,
+          "score": "23-26"
+        },
+        {
+          "seq": 519,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "score",
+          "points": 2,
+          "score": "23-24"
+        },
+        {
+          "seq": 520,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "score",
+          "points": 2,
+          "score": "23-22"
+        },
+        {
+          "seq": 521,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "rebound",
+          "points": null,
+          "score": "23-22"
+        },
+        {
+          "seq": 522,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "block",
+          "points": null,
+          "score": "23-22"
+        },
+        {
+          "seq": 523,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "23-22"
+        },
+        {
+          "seq": 524,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "steal",
+          "points": null,
+          "score": "23-22"
+        },
+        {
+          "seq": 525,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "turnover",
+          "points": null,
+          "score": "23-22"
+        },
+        {
+          "seq": 526,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "rebound",
+          "points": null,
+          "score": "23-22"
+        },
+        {
+          "seq": 527,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "23-22"
+        },
+        {
+          "seq": 528,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "score",
+          "points": 1,
+          "score": "21-22"
+        },
+        {
+          "seq": 529,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "score",
+          "points": 1,
+          "score": "21-21"
+        },
+        {
+          "seq": 530,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "21-21"
+        },
+        {
+          "seq": 531,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Devin Moody",
+          "type": "unknown",
+          "points": null,
+          "score": "21-21"
+        },
+        {
+          "seq": 532,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "foul",
+          "points": null,
+          "score": "21-21"
+        },
+        {
+          "seq": 533,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "foul",
+          "points": null,
+          "score": "21-21"
+        },
+        {
+          "seq": 534,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "rebound",
+          "points": null,
+          "score": "21-21"
+        },
+        {
+          "seq": 535,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "unknown",
+          "points": null,
+          "score": "21-21"
+        },
+        {
+          "seq": 536,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "assist",
+          "points": null,
+          "score": "21-21"
+        },
+        {
+          "seq": 537,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "score",
+          "points": 2,
+          "score": "21-20"
+        },
+        {
+          "seq": 538,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "rebound",
+          "points": null,
+          "score": "21-20"
+        },
+        {
+          "seq": 539,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "21-20"
+        },
+        {
+          "seq": 540,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Aaron Allison",
+          "type": "unknown",
+          "points": null,
+          "score": "21-20"
+        },
+        {
+          "seq": 541,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "unknown",
+          "points": null,
+          "score": "21-20"
+        },
+        {
+          "seq": 542,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "unknown",
+          "points": null,
+          "score": "21-20"
+        },
+        {
+          "seq": 543,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "unknown",
+          "points": null,
+          "score": "21-20"
+        },
+        {
+          "seq": 544,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "unknown",
+          "points": null,
+          "score": "21-20"
+        },
+        {
+          "seq": 545,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Tyrell Griffith",
+          "type": "unknown",
+          "points": null,
+          "score": "21-20"
+        },
+        {
+          "seq": 546,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "foul",
+          "points": null,
+          "score": "21-20"
+        },
+        {
+          "seq": 547,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "foul",
+          "points": null,
+          "score": "21-20"
+        },
+        {
+          "seq": 548,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "assist",
+          "points": null,
+          "score": "21-20"
+        },
+        {
+          "seq": 549,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "score",
+          "points": 3,
+          "score": "19-20"
+        },
+        {
+          "seq": 550,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "assist",
+          "points": null,
+          "score": "19-20"
+        },
+        {
+          "seq": 551,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "score",
+          "points": 3,
+          "score": "16-20"
+        },
+        {
+          "seq": 552,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "assist",
+          "points": null,
+          "score": "16-20"
+        },
+        {
+          "seq": 553,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "score",
+          "points": 2,
+          "score": "16-17"
+        },
+        {
+          "seq": 554,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "score",
+          "points": 2,
+          "score": "14-17"
+        },
+        {
+          "seq": 555,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "rebound",
+          "points": null,
+          "score": "14-17"
+        },
+        {
+          "seq": 556,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "unknown",
+          "points": null,
+          "score": "14-17"
+        },
+        {
+          "seq": 557,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "score",
+          "points": 3,
+          "score": "14-15"
+        },
+        {
+          "seq": 558,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "assist",
+          "points": null,
+          "score": "14-15"
+        },
+        {
+          "seq": 559,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "score",
+          "points": 3,
+          "score": "11-15"
+        },
+        {
+          "seq": 560,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "assist",
+          "points": null,
+          "score": "11-15"
+        },
+        {
+          "seq": 561,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "score",
+          "points": 2,
+          "score": "11-12"
+        },
+        {
+          "seq": 562,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "score",
+          "points": 2,
+          "score": "9-12"
+        },
+        {
+          "seq": 563,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "rebound",
+          "points": null,
+          "score": "9-12"
+        },
+        {
+          "seq": 564,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "9-12"
+        },
+        {
+          "seq": 565,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "9-12"
+        },
+        {
+          "seq": 566,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "9-12"
+        },
+        {
+          "seq": 567,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "foul",
+          "points": null,
+          "score": "9-12"
+        },
+        {
+          "seq": 568,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "foul",
+          "points": null,
+          "score": "9-12"
+        },
+        {
+          "seq": 569,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "rebound",
+          "points": null,
+          "score": "9-12"
+        },
+        {
+          "seq": 570,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "unknown",
+          "points": null,
+          "score": "9-12"
+        },
+        {
+          "seq": 571,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "assist",
+          "points": null,
+          "score": "9-12"
+        },
+        {
+          "seq": 572,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "score",
+          "points": 2,
+          "score": "9-10"
+        },
+        {
+          "seq": 573,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "rebound",
+          "points": null,
+          "score": "9-10"
+        },
+        {
+          "seq": 574,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "unknown",
+          "points": null,
+          "score": "9-10"
+        },
+        {
+          "seq": 575,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "score",
+          "points": 1,
+          "score": "7-10"
+        },
+        {
+          "seq": 576,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "score",
+          "points": 1,
+          "score": "6-10"
+        },
+        {
+          "seq": 577,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "foul",
+          "points": null,
+          "score": "6-10"
+        },
+        {
+          "seq": 578,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "foul",
+          "points": null,
+          "score": "6-10"
+        },
+        {
+          "seq": 579,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "unknown",
+          "points": null,
+          "score": "6-10"
+        },
+        {
+          "seq": 580,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Johan Bermudez",
+          "type": "unknown",
+          "points": null,
+          "score": "6-10"
+        },
+        {
+          "seq": 581,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "score",
+          "points": 1,
+          "score": "5-10"
+        },
+        {
+          "seq": 582,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "score",
+          "points": 1,
+          "score": "5-9"
+        },
+        {
+          "seq": 583,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "foul",
+          "points": null,
+          "score": "5-9"
+        },
+        {
+          "seq": 584,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "foul",
+          "points": null,
+          "score": "5-9"
+        },
+        {
+          "seq": 585,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "rebound",
+          "points": null,
+          "score": "5-9"
+        },
+        {
+          "seq": 586,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "unknown",
+          "points": null,
+          "score": "5-9"
+        },
+        {
+          "seq": 587,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "score",
+          "points": 1,
+          "score": "5-8"
+        },
+        {
+          "seq": 588,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "score",
+          "points": 1,
+          "score": "5-7"
+        },
+        {
+          "seq": 589,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "foul",
+          "points": null,
+          "score": "5-7"
+        },
+        {
+          "seq": 590,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "foul",
+          "points": null,
+          "score": "5-7"
+        },
+        {
+          "seq": 591,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "rebound",
+          "points": null,
+          "score": "5-7"
+        },
+        {
+          "seq": 592,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "5-7"
+        },
+        {
+          "seq": 593,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "5-7"
+        },
+        {
+          "seq": 594,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "unknown",
+          "points": null,
+          "score": "5-7"
+        },
+        {
+          "seq": 595,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "turnover",
+          "points": null,
+          "score": "5-7"
+        },
+        {
+          "seq": 596,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "assist",
+          "points": null,
+          "score": "5-7"
+        },
+        {
+          "seq": 597,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "score",
+          "points": 2,
+          "score": "5-6"
+        },
+        {
+          "seq": 598,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "turnover",
+          "points": null,
+          "score": "5-6"
+        },
+        {
+          "seq": 599,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "5-6"
+        },
+        {
+          "seq": 600,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "unknown",
+          "points": null,
+          "score": "5-6"
+        },
+        {
+          "seq": 601,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "rebound",
+          "points": null,
+          "score": "5-6"
+        },
+        {
+          "seq": 602,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "unknown",
+          "points": null,
+          "score": "5-6"
+        },
+        {
+          "seq": 603,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "score",
+          "points": 2,
+          "score": "5-4"
+        },
+        {
+          "seq": 604,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "assist",
+          "points": null,
+          "score": "5-4"
+        },
+        {
+          "seq": 605,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "score",
+          "points": 2,
+          "score": "5-2"
+        },
+        {
+          "seq": 606,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "score",
+          "points": 2,
+          "score": "3-2"
+        },
+        {
+          "seq": 607,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "score",
+          "points": 1,
+          "score": "3-0"
+        },
+        {
+          "seq": 608,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "unknown",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 609,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "unknown",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 610,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Kerwin Palacio",
+          "type": "unknown",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 611,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "foul",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 612,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "foul",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 613,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "rebound",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 614,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "unknown",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 615,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Brian White",
+          "type": "rebound",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 616,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "unknown",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 617,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "foul",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 618,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "foul",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 619,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "rebound",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 620,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "unknown",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 621,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "rebound",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 622,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "unknown",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 623,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 624,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Glency Lopez",
+          "type": "unknown",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 625,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Jeremiah Toney",
+          "type": "rebound",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 626,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "unknown",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 627,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Eyan Rene",
+          "type": "steal",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 628,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "turnover",
+          "points": null,
+          "score": "3-0"
+        },
+        {
+          "seq": 629,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "score",
+          "points": 2,
+          "score": "2-0"
+        },
+        {
+          "seq": 630,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Demetrius Thomas",
+          "type": "rebound",
+          "points": null,
+          "score": "2-0"
+        },
+        {
+          "seq": 631,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "unknown",
+          "points": null,
+          "score": "2-0"
+        },
+        {
+          "seq": 632,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "rebound",
+          "points": null,
+          "score": "2-0"
+        },
+        {
+          "seq": 633,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Zoren Smith",
+          "type": "unknown",
+          "points": null,
+          "score": "2-0"
+        },
+        {
+          "seq": 634,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "foul",
+          "points": null,
+          "score": "2-0"
+        },
+        {
+          "seq": 635,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "turnover",
+          "points": null,
+          "score": "2-0"
+        },
+        {
+          "seq": 636,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "foul",
+          "points": null,
+          "score": "2-0"
+        },
+        {
+          "seq": 637,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Keshaun Mack",
+          "type": "foul",
+          "points": null,
+          "score": "2-0"
+        },
+        {
+          "seq": 638,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Victor Evans",
+          "type": "foul",
+          "points": null,
+          "score": "2-0"
+        },
+        {
+          "seq": 639,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Raymond Hawkins",
+          "type": "unknown",
+          "points": null,
+          "score": "2-0"
+        },
+        {
+          "seq": 640,
+          "period": 1,
+          "time": null,
+          "team": null,
+          "player": "Edward Hampton",
+          "type": "unknown",
+          "points": null,
+          "score": "2-0"
+        },
+        {
+          "seq": 641,
+          "period": null,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "0-0"
+        },
+        {
+          "seq": 642,
+          "period": null,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "0-0"
+        },
+        {
+          "seq": 643,
+          "period": null,
+          "time": null,
+          "team": null,
+          "player": null,
+          "type": "unknown",
+          "points": null,
+          "score": "0-0"
+        }
+      ],
+      "home_score": 0,
+      "away_score": 0
+    },
+    "scoreboard": {
+      "periods": {},
+      "final": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    "periods": {
+      "quarters": [
+        {
+          "period": "SPT",
+          "home": "26",
+          "away": "16"
+        },
+        {
+          "period": "CWB",
+          "home": "26",
+          "away": "24"
+        },
+        {
+          "period": "56",
+          "home": "FINAL",
+          "away": "63"
+        },
+        {
+          "period": "65",
+          "home": "FINAL",
+          "away": "62"
+        },
+        {
+          "period": "SPT",
+          "home": "",
+          "away": ""
+        },
+        {
+          "period": "0 / 0 (0%)",
+          "home": "",
+          "away": "FGField Goals"
+        },
+        {
+          "period": "0 / 0 (0%)",
+          "home": "",
+          "away": "2P2 Points Made"
+        },
+        {
+          "period": "0 / 0 (0%)",
+          "home": "",
+          "away": "3P3 Point Field Goals"
+        },
+        {
+          "period": "0 / 0 (0%)",
+          "home": "",
+          "away": "FTFree Throws"
+        },
+        {
+          "period": "0",
+          "home": "",
+          "away": "REBTotal Rebounds"
+        },
+        {
+          "period": "0",
+          "home": "",
+          "away": "ASTAssists"
+        },
+        {
+          "period": "0",
+          "home": "",
+          "away": "STLSteals"
+        },
+        {
+          "period": "0",
+          "home": "",
+          "away": "BLKBlocks"
+        },
+        {
+          "period": "0",
+          "home": "",
+          "away": "TOTurnovers"
+        },
+        {
+          "period": "0 ()",
+          "home": "",
+          "away": "PFPersonal Foul"
+        },
+        {
+          "period": "0",
+          "home": "",
+          "away": "PIPPoints in the paint"
+        },
+        {
+          "period": "0",
+          "home": "",
+          "away": "2CPSecond chance points"
+        },
+        {
+          "period": "0",
+          "home": "",
+          "away": "PFTPoints from turnovers"
+        },
+        {
+          "period": "0",
+          "home": "",
+          "away": "BPBench points"
+        },
+        {
+          "period": "0",
+          "home": "",
+          "away": "FBPFast break points"
+        },
+        {
+          "period": "",
+          "home": "Team",
+          "away": "P"
+        },
+        {
+          "period": "",
+          "home": "Orange Walk Running Rebels",
+          "away": "0"
+        },
+        {
+          "period": "",
+          "home": "Belize City Defenders",
+          "away": "0"
+        },
+        {
+          "period": "",
+          "home": "Belmopan Trojans",
+          "away": "0"
+        },
+        {
+          "period": "",
+          "home": "Cayo Western Ballaz",
+          "away": "0"
+        },
+        {
+          "period": "",
+          "home": "EZ Investment Griga Dream Ballers",
+          "away": "0"
+        },
+        {
+          "period": "",
+          "home": "San Pedro Tiger Sharks",
+          "away": "0"
+        },
+        {
+          "period": "",
+          "home": "Corozal Spartans",
+          "away": "0"
+        }
+      ]
+    }
+  }
+}
