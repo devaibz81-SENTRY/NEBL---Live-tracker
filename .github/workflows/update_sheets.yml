@@ -29,8 +29,8 @@ jobs:
     
     - name: Run fetcher and update Sheets
       env:
-        GAME_ID: ${{ secrets.GAME_ID || '2799697' }}
-        SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID || '1B5y_9uVwHfC_9Gw1sKC6YJesaOG_xe3ACWPJTra8K14' }}
+        GAME_ID: ${{ secrets.GAME_ID }}
+        SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
         GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
       run: python .github/workflows/update_sheets.py
     
