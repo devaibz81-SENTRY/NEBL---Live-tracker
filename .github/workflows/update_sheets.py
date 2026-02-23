@@ -25,9 +25,22 @@ except ImportError:
     HAS_GOOGLE = False
 
 # Configuration
-GAME_ID = os.environ.get('GAME_ID', '')
-SPREADSHEET_ID = os.environ.get('SPREADSHEET_ID', '')
-BASE_URL = f"https://fibalivestats.dcd.shared.geniussports.com/u/BBF/{GAME_ID}" if GAME_ID else ''
+GAME_URL = os.environ.get('GAME_URL', '').strip()
+SPREADSHEET_ID = os.environ.get('SPREADSHEET_ID', '').strip()
+
+# Parse game ID from URL (e.g., https://fibalivestats.dcd.shared.geniussports.com/u/BBF/2799697)
+GAME_ID = ''
+BASE_URL = ''
+if GAME_URL:
+    match = re.search(r'/u/BBF/(\d+)', GAME_URL)
+    if match:
+        GAME_ID = match.group(1)
+        BASE_URL = f"https://fibalivestats.dcd.shared.geniussports.com/u/BBF/{GAME_ID}"
+    else:
+        # Try using as-is if it's just a number
+        if GAME_URL.isdigit():
+            GAME_ID = GAME_URL
+            BASE_URL = f"https://fibalivestats.dcd.shared.geniussports.com/u/BBF/{GAME_ID}"
 
 def fetch_page(url):
     """Fetch a page - tries requests first, then playwright"""

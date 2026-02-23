@@ -5,8 +5,8 @@ on:
     - cron: '*/1 * * * *'  # Run every minute
   workflow_dispatch:  # Allow manual trigger
     inputs:
-      game_id:
-        description: 'Game ID'
+      game_url:
+        description: 'Game URL (e.g., https://fibalivestats.dcd.shared.geniussports.com/u/BBF/2799697)'
         required: true
         default: ''
       spreadsheet_id:
@@ -38,7 +38,7 @@ jobs:
     
     - name: Run fetcher and update Sheets
       env:
-        GAME_ID: ${{ github.event.inputs.game_id || secrets.GAME_ID }}
+        GAME_URL: ${{ github.event.inputs.game_url || secrets.GAME_URL }}
         SPREADSHEET_ID: ${{ github.event.inputs.spreadsheet_id || secrets.SPREADSHEET_ID }}
         GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
       run: python .github/workflows/update_sheets.py
