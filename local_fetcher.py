@@ -1,21 +1,13 @@
 #!/usr/bin/env python3
 """
-NEBL Live Stats - Local Fetcher
-Run this on your computer to fetch data and write to Google Sheets
+NEBL Live Stats - Read from LOCAL HTML files and write to Google Sheets
+Place your saved HTML files in a folder and run this script
 """
 
 import os
 import re
 import json
-import sys
-import time
 from bs4 import BeautifulSoup
-
-try:
-    from playwright.sync_api import sync_playwright
-    HAS_PLAYWRIGHT = True
-except ImportError:
-    HAS_PLAYWRIGHT = False
 
 try:
     from google.oauth2 import service_account
@@ -24,31 +16,12 @@ try:
 except ImportError:
     HAS_GOOGLE = False
 
-def fetch_page(url):
-    """Fetch page using playwright"""
-    if HAS_PLAYWRIGHT:
-        try:
-            with sync_playwright() as p:
-                browser = p.chromium.launch(headless=True)
-                page = browser.new_page()
-                page.goto(url, wait_until="networkidle", timeout=30000)
-                page.wait_for_timeout(2000)
-                content = page.content()
-                browser.close()
-                return content
-        except Exception as e:
-            print(f"Playwright error: {e}")
-    
-    # Fallback to requests
-    try:
-        import requests
-        headers = {'User-Agent': 'Mozilla/5.0'}
-        response = requests.get(url, headers=headers, timeout=15)
-        if response.status_code == 200:
-            return response.text
-    except:
-        pass
-    
+def read_local_html(folder_path, filename):
+    """Read HTML from local file"""
+    filepath = os.path.join(folder_path, filename)
+    if os.path.exists(filepath):
+        with open(filepath, 'r', encoding='utf-8') as f:
+            return f.read()
     return ""
 
 def parse_scoreboard(html):
@@ -95,8 +68,17 @@ def parse_boxscore(html):
             if name_span:
                 player['name'] = name_span.get_text(strip=True) or ''
             
+            # Get position
+            pos_span = row.find('span', id=re.compile(f'^aj_{team_num}_\\d+_playingPosition$'))
+            if pos_span:
+                player['pos'] = pos_span.get_text(strip=True) or ''
+            
             # Get stats
-            for stat_key, stat_id in [('pts', 'sPoints'), ('reb', 'sReboundsTotal'), ('ast', 'sAssists'), ('min', 'sMinutes')]:
+            for stat_key, stat_id in [
+                ('min', 'sMinutes'), ('pts', 'sPoints'), ('reb', 'sReboundsTotal'),
+                ('ast', 'sAssists'), ('stl', 'sSteals'), ('blk', 'sBlocks'),
+                ('to', 'sTurnovers'), ('pf', 'sFoulsPersonal')
+            ]:
                 span = row.find('span', id=re.compile(f'^aj_{team_num}_\\d+_{stat_id}$'))
                 if span:
                     player[stat_key] = span.get_text(strip=True) or '0'
@@ -115,24 +97,35 @@ def write_to_sheets(credentials, data, spreadsheet_id):
         ['', ''],
         [scoreboard.get('home_team', 'Home'), scoreboard.get('home_score', 0)],
         [scoreboard.get('away_team', 'Away'), scoreboard.get('away_score', 0)],
+        ['', ''],
         ['Period', scoreboard.get('period', '')],
         ['Clock', scoreboard.get('clock', '')]
     ]
     
     home_players = data.get('boxscore', {}).get('home_players', [])
-    home_values = [['#', 'Name', 'MIN', 'PTS', 'REB', 'AST']]
+    home_values = [['#', 'Name', 'POS', 'MIN', 'PTS', 'REB', 'AST', 'STL', 'BLK', 'TO', 'PF']]
     for p in home_players:
-        home_values.append([p.get('num', ''), p.get('name', ''), p.get('min', ''), p.get('pts', ''), p.get('reb', ''), p.get('ast', '')])
+        home_values.append([
+            p.get('num', ''), p.get('name', ''), p.get('pos', ''),
+            p.get('min', ''), p.get('pts', ''), p.get('reb', ''),
+            p.get('ast', ''), p.get('stl', ''), p.get('blk', ''),
+            p.get('to', ''), p.get('pf', '')
+        ])
     
     away_players = data.get('boxscore', {}).get('away_players', [])
-    away_values = [['#', 'Name', 'MIN', 'PTS', 'REB', 'AST']]
+    away_values = [['#', 'Name', 'POS', 'MIN', 'PTS', 'REB', 'AST', 'STL', 'BLK', 'TO', 'PF']]
     for p in away_players:
-        away_values.append([p.get('num', ''), p.get('name', ''), p.get('min', ''), p.get('pts', ''), p.get('reb', ''), p.get('ast', '')])
+        away_values.append([
+            p.get('num', ''), p.get('name', ''), p.get('pos', ''),
+            p.get('min', ''), p.get('pts', ''), p.get('reb', ''),
+            p.get('ast', ''), p.get('stl', ''), p.get('blk', ''),
+            p.get('to', ''), p.get('pf', '')
+        ])
     
     sheets = {
         'Scoreboard': scoreboard_values,
-        'Home': home_values,
-        'Away': away_values
+        'Home Box': home_values,
+        'Away Box': away_values
     }
     
     for sheet_name, values in sheets.items():
@@ -143,42 +136,58 @@ def write_to_sheets(credentials, data, spreadsheet_id):
                 valueInputOption='USER_ENTERED',
                 body={'values': values}
             ).execute()
-            print(f"Updated {sheet_name}")
+            print(f"✓ Updated {sheet_name}: {result.get('updatedCells', 0)} cells")
         except Exception as e:
-            print(f"Error updating {sheet_name}: {e}")
+            print(f"✗ Error updating {sheet_name}: {e}")
 
 def main():
-    # Get inputs
-    game_url = input("Enter game URL (e.g., https://fibalivestats.dcd.shared.geniussports.com/u/BBF/2799697): ").strip()
-    spreadsheet_id = input("Enter Spreadsheet ID: ").strip()
+    print("=" * 50)
+    print("NEBL Live Stats - Local HTML to Google Sheets")
+    print("=" * 50)
     
-    # Parse game ID from URL
-    match = re.search(r'/u/BBF/(\d+)', game_url)
-    if not match:
-        print("Invalid URL - could not find game ID")
+    # Get folder path
+    folder = input("\nEnter folder path with HTML files: ").strip()
+    if not folder:
+        folder = "."
+    
+    # Check files exist
+    index_path = os.path.join(folder, "index.html")
+    bs_path = os.path.join(folder, "bs.html")
+    
+    if not os.path.exists(index_path):
+        print(f"✗ Error: index.html not found in {folder}")
+        return
+    if not os.path.exists(bs_path):
+        print(f"✗ Error: bs.html not found in {folder}")
         return
     
-    game_id = match.group(1)
-    base_url = f"https://fibalivestats.dcd.shared.geniussports.com/u/BBF/{game_id}"
+    print(f"\nReading HTML files from: {folder}")
     
-    print(f"Fetching game {game_id}...")
-    
-    # Fetch data
-    print("Fetching scoreboard...")
-    html_index = fetch_page(f"{base_url}/index.html")
+    # Read HTML files
+    print("Reading index.html...")
+    html_index = read_local_html(folder, "index.html")
     scoreboard = parse_scoreboard(html_index)
-    print(f"Score: {scoreboard['home_score']} - {scoreboard['away_score']}")
+    print(f"  Score: {scoreboard['home_team']} {scoreboard['home_score']} - {scoreboard['away_score']} {scoreboard['away_team']}")
+    print(f"  Period: {scoreboard['period']}, Clock: {scoreboard['clock']}")
     
-    print("Fetching boxscore...")
-    html_box = fetch_page(f"{base_url}/bs.html")
+    print("Reading bs.html...")
+    html_box = read_local_html(folder, "bs.html")
     boxscore = parse_boxscore(html_box)
-    print(f"Players: {len(boxscore['home_players'])} home, {len(boxscore['away_players'])} away")
+    print(f"  Home players: {len(boxscore['home_players'])}")
+    print(f"  Away players: {len(boxscore['away_players'])}")
     
     data = {'scoreboard': scoreboard, 'boxscore': boxscore}
     
-    # Write to sheets
-    if HAS_GOOGLE:
+    # Ask about Google Sheets
+    update_sheets = input("\nUpdate Google Sheets? (y/n): ").strip().lower()
+    
+    if update_sheets == 'y' and HAS_GOOGLE:
+        spreadsheet_id = input("Enter Spreadsheet ID: ").strip()
+        
+        # Try to get credentials
+        import os
         creds_json = os.environ.get('GOOGLE_CREDENTIALS_JSON')
+        
         if creds_json:
             import tempfile
             with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as f:
@@ -189,13 +198,15 @@ def main():
                 creds_file,
                 scopes=['https://www.googleapis.com/auth/spreadsheets']
             )
+            
+            print("\nWriting to Google Sheets...")
             write_to_sheets(credentials, data, spreadsheet_id)
-            print("Sheets updated!")
+            print("\n✓ Done! Check your Google Sheet.")
         else:
-            print("No GOOGLE_CREDENTIALS_JSON - run locally without sheet update")
-            print(json.dumps(data, indent=2))
+            print("✗ No GOOGLE_CREDENTIALS_JSON environment variable set")
+            print("Set it with: set GOOGLE_CREDENTIALS_JSON={'...json content...'}")
     else:
-        print("Google libraries not installed")
+        print("\nData fetched:")
         print(json.dumps(data, indent=2))
 
 if __name__ == '__main__':
