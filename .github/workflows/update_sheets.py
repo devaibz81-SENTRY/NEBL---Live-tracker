@@ -44,28 +44,39 @@ if GAME_URL:
 
 def fetch_page(url):
     """Fetch a page - tries requests first, then playwright"""
+    print(f"Attempting to fetch: {url}")
+    
     # Try with requests first (faster)
     try:
         import requests
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+            'Connection': 'keep-alive',
         }
-        response = requests.get(url, headers=headers, timeout=15)
-        if response.status_code == 200 and len(response.text) > 5000:
+        print(f"Making requests call...")
+        response = requests.get(url, headers=headers, timeout=30)
+        print(f"Response status: {response.status_code}, length: {len(response.text)}")
+        if response.status_code == 200 and len(response.text) > 1000:
             return response.text
-    except:
-        pass
+        elif response.status_code != 200:
+            print(f"HTTP error: {response.status_code}")
+    except Exception as e:
+        print(f"Requests error: {e}")
     
     # Fall back to playwright
     if HAS_PLAYWRIGHT:
         try:
+            print(f"Attempting playwright...")
             with sync_playwright() as p:
                 browser = p.chromium.launch(headless=True)
                 page = browser.new_page()
                 page.goto(url, wait_until="networkidle", timeout=30000)
-                page.wait_for_timeout(2000)
+                page.wait_for_timeout(3000)
                 content = page.content()
                 browser.close()
+                print(f"Playwright success, content length: {len(content)}")
                 return content
         except Exception as e:
             print(f"Playwright error: {e}")
