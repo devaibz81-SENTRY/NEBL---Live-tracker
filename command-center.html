@@ -255,8 +255,8 @@
             if (autoRefreshEnabled) {
                 btn.textContent = '⏸️ Auto: ON';
                 btn.style.background = '#e94560';
-                autoRefreshInterval = setInterval(refreshData, 30000);
-                log('Auto-refresh enabled (30s)', 'info');
+                autoRefreshInterval = setInterval(refreshData, 1000);
+                log('Auto-refresh enabled (1s)', 'info');
             } else {
                 btn.textContent = '▶️ Auto: OFF';
                 btn.style.background = '#666';
@@ -269,8 +269,8 @@
         loadConfig();
         refreshData();
         
-        // Auto-refresh every 30 seconds
-        autoRefreshInterval = setInterval(refreshData, 30000);
+        // Auto-refresh every 1 second
+        autoRefreshInterval = setInterval(refreshData, 1000);
     </script>
 </body>
 </html>
