@@ -350,6 +350,8 @@ def main():
     # Write to Google Sheets
     print("Writing to Google Sheets...")
     creds_json = os.environ.get('GOOGLE_CREDENTIALS_JSON')
+    print(f"GOOGLE_CREDENTIALS_JSON present: {bool(creds_json)}")
+    print(f"HAS_GOOGLE: {HAS_GOOGLE}")
     
     if creds_json and HAS_GOOGLE:
         import tempfile
