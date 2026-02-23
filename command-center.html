@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEBL Live Stats - Command Center</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); min-height: 100vh; color: #fff; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 { text-align: center; margin-bottom: 30px; color: #e94560; }
+        .card { background: rgba(255,255,255,0.1); border-radius: 15px; padding: 25px; margin-bottom: 20px; backdrop-filter: blur(10px); }
+        .card h2 { color: #0f3460; margin-bottom: 15px; font-size: 1.2rem; }
+        .score-display { display: flex; justify-content: center; align-items: center; gap: 40px; margin: 20px 0; }
+        .team { text-align: center; }
+        .team-name { font-size: 1.5rem; font-weight: bold; margin-bottom: 10px; }
+        .score { font-size: 4rem; font-weight: bold; color: #e94560; }
+        .vs { font-size: 2rem; color: #666; }
+        .game-info { text-align: center; font-size: 1.2rem; color: #aaa; }
+        .status { padding: 10px 20px; border-radius: 25px; display: inline-block; margin-top: 10px; }
+        .status.live { background: #e94560; }
+        .status.ended { background: #666; }
+        .btn { background: #e94560; color: #fff; border: none; padding: 15px 30px; font-size: 1rem; border-radius: 8px; cursor: pointer; transition: transform 0.2s, background 0.2s; }
+        .btn:hover { transform: scale(1.05); background: #ff6b6b; }
+        .btn:disabled { background: #666; cursor: not-allowed; }
+        .btn-group { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
+        .link-card a { color: #4ecca3; font-size: 1.1rem; }
+        .log { background: #0f0f23; padding: 15px; border-radius: 8px; font-family: monospace; font-size: 0.9rem; max-height: 200px; overflow-y: auto; white-space: pre-wrap; }
+        .log-entry { margin: 5px 0; }
+        .log-entry.error { color: #e94560; }
+        .log-entry.success { color: #4ecca3; }
+        .log-entry.info { color: #4fc3f7; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏀 NEBL Live Stats Command Center</h1>
+        
+        <div class="card">
+            <h2>📊 Live Score</h2>
+            <div class="score-display">
+                <div class="team">
+                    <div class="team-name" id="homeTeam">Loading...</div>
+                    <div class="score" id="homeScore">-</div>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team">
+                    <div class="team-name" id="awayTeam">Loading...</div>
+                    <div class="score" id="awayScore">-</div>
+                </div>
+            </div>
+            <div class="game-info">
+                <span id="period">Period: -</span> | <span id="clock">Clock: -</span>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>🎮 Controls</h2>
+            <div class="btn-group">
+                <button class="btn" id="refreshBtn" onclick="refreshData()">🔄 Refresh Now</button>
+                <button class="btn" id="triggerBtn" onclick="triggerWorkflow()">🚀 Trigger GitHub Workflow</button>
+            </div>
+            <div class="log" id="log"></div>
+        </div>
+        
+        <div class="card link-card">
+            <h2>🔗 Quick Links</h2>
+            <p><a href="https://docs.google.com/spreadsheets/d/1B5y_9uVwHfC_9Gw1sKC6YJesaOG_xe3ACWPJTra8K14/edit" target="_blank">📊 Google Sheet</a></p>
+            <p><a href="https://github.com/devaibz81-SENTRY/NEBL---Live-tracker/actions" target="_blank">⚙️ GitHub Actions</a></p>
+            <p><a href="https://fibalivestats.dcd.shared.geniussports.com/u/BBF/2799697" target="_blank">🏀 Live Stats Source</a></p>
+        </div>
+        
+        <div class="card">
+            <h2>📈 Last Updated</h2>
+            <p id="lastUpdate">Never</p>
+        </div>
+    </div>
+
+    <script>
+        const GAME_ID = '2799697';
+        const BASE_URL = `https://fibalivestats.dcd.shared.geniussports.com/u/BBF/${GAME_ID}`;
+        const SPREADSHEET_ID = '1B5y_9uVwHfC_9Gw1sKC6YJesaOG_xe3ACWPJTra8K14';
+        
+        function log(msg, type = 'info') {
+            const logDiv = document.getElementById('log');
+            const entry = document.createElement('div');
+            entry.className = `log-entry ${type}`;
+            entry.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
+            logDiv.appendChild(entry);
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+        
+        async function fetchScoreboard() {
+            try {
+                const response = await fetch(`${BASE_URL}/index.html`);
+                const html = await response.text();
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                
+                const homeTeam = doc.getElementById('aj_1_shortName')?.textContent || 
+                                 doc.querySelector('[id*="1"] [id*="shortName"]')?.textContent || 'Home';
+                const awayTeam = doc.getElementById('aj_2_shortName')?.textContent || 'Away';
+                const homeScore = doc.getElementById('aj_1_score')?.textContent || '0';
+                const awayScore = doc.getElementById('aj_2_score')?.textContent || '0';
+                const period = doc.getElementById('aj_period')?.textContent || '';
+                const clock = doc.getElementById('aj_clock')?.textContent || '';
+                
+                document.getElementById('homeTeam').textContent = homeTeam;
+                document.getElementById('awayTeam').textContent = awayTeam;
+                document.getElementById('homeScore').textContent = homeScore;
+                document.getElementById('awayScore').textContent = awayScore;
+                document.getElementById('period').textContent = `Period: ${period}`;
+                document.getElementById('clock').textContent = `Clock: ${clock}`;
+                
+                log(`Score: ${homeScore} - ${awayScore}`, 'success');
+                return true;
+            } catch (e) {
+                log(`Error fetching scoreboard: ${e.message}`, 'error');
+                return false;
+            }
+        }
+        
+        async function refreshData() {
+            const btn = document.getElementById('refreshBtn');
+            btn.disabled = true;
+            btn.textContent = '⏳ Refreshing...';
+            log('Refreshing data...');
+            
+            await fetchScoreboard();
+            
+            document.getElementById('lastUpdate').textContent = new Date().toLocaleString();
+            btn.disabled = false;
+            btn.textContent = '🔄 Refresh Now';
+        }
+        
+        async function triggerWorkflow() {
+            const btn = document.getElementById('triggerBtn');
+            btn.disabled = true;
+            btn.textContent = '⏳ Triggering...';
+            log('Triggering GitHub workflow...');
+            
+            log('Note: To trigger workflow, go to GitHub Actions manually', 'info');
+            log('Workflow runs automatically every minute', 'info');
+            
+            btn.disabled = false;
+            btn.textContent = '🚀 Trigger GitHub Workflow';
+        }
+        
+        refreshData();
+        setInterval(refreshData, 30000);
+    </script>
+</body>
+</html>
