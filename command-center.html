@@ -72,7 +72,7 @@
             </div>
             <div class="form-group">
                 <label>Game URL (paste full Genius Sports URL)</label>
-                <input type="text" id="gameUrl" placeholder="https://fibalivestats.dcd.shared.geniussports.com/u/BBF/2799697" onchange="parseGameUrl()">
+                <input type="text" id="gameUrl" placeholder="Paste game URL (e.g., fibalivestats.dcd.shared.geniussports.com/u/BBF/XXXXXXX)" onchange="parseGameUrl()">
             </div>
         </div>
         
@@ -136,8 +136,8 @@
     </div>
 
     <script>
-        let GAME_ID = '2799697';
-        let SPREADSHEET_ID = '1B5y_9uVwHfC_9Gw1sKC6YJesaOG_xe3ACWPJTra8K14';
+        let GAME_ID = '';
+        let SPREADSHEET_ID = '';
         let BASE_URL = '';
         let autoRefreshInterval = null;
         let autoRefreshEnabled = true;
@@ -194,6 +194,11 @@
         }
         
         async function fetchScoreboard() {
+            if (!GAME_ID) {
+                log('No game ID configured. Enter game URL above.', 'warning');
+                setStatus('yellow', 'Waiting for game URL...');
+                return;
+            }
             try {
                 log(`Fetching from ${BASE_URL}/index.html...`);
                 const response = await fetch(`${BASE_URL}/index.html`);

@@ -25,9 +25,9 @@ except ImportError:
     HAS_GOOGLE = False
 
 # Configuration
-GAME_ID = os.environ.get('GAME_ID', '2799697')
-SPREADSHEET_ID = os.environ.get('SPREADSHEET_ID', '1B5y_9uVwHfC_9Gw1sKC6YJesaOG_xe3ACWPJTra8K14')
-BASE_URL = f"https://fibalivestats.dcd.shared.geniussports.com/u/BBF/{GAME_ID}"
+GAME_ID = os.environ.get('GAME_ID', '')
+SPREADSHEET_ID = os.environ.get('SPREADSHEET_ID', '')
+BASE_URL = f"https://fibalivestats.dcd.shared.geniussports.com/u/BBF/{GAME_ID}" if GAME_ID else ''
 
 def fetch_page(url):
     """Fetch a page - tries requests first, then playwright"""
@@ -321,6 +321,10 @@ def write_to_sheets(credentials, data):
         print(f"Updated {sheet_name}: {result.get('updatedCells', 0)} cells")
 
 def main():
+    if not GAME_ID:
+        print("ERROR: No GAME_ID provided. Set GAME_ID environment variable.")
+        return
+    
     print(f"Fetching game {GAME_ID} from {BASE_URL}")
     
     # Fetch data
