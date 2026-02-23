@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: '*/1 * * * *'  # Run every minute
   workflow_dispatch:  # Allow manual trigger
+    inputs:
+      game_id:
+        description: 'Game ID'
+        required: true
+        default: ''
+      spreadsheet_id:
+        description: 'Spreadsheet ID'
+        required: true
+        default: ''
   push:
     branches:
       - main
@@ -29,8 +38,8 @@ jobs:
     
     - name: Run fetcher and update Sheets
       env:
-        GAME_ID: ${{ secrets.GAME_ID }}
-        SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+        GAME_ID: ${{ github.event.inputs.game_id || secrets.GAME_ID }}
+        SPREADSHEET_ID: ${{ github.event.inputs.spreadsheet_id || secrets.SPREADSHEET_ID }}
         GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
       run: python .github/workflows/update_sheets.py
     

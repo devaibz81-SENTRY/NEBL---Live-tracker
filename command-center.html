@@ -122,6 +122,7 @@
             <div class="btn-group">
                 <button class="btn" id="refreshBtn" onclick="refreshData()">🔄 Refresh Now</button>
                 <button class="btn" id="autoRefreshBtn" onclick="toggleAutoRefresh()">⏸️ Auto: ON</button>
+                <button class="btn" id="sheetsBtn" onclick="updateSheets()">📊 Update Sheets</button>
             </div>
             <div class="log" id="log"></div>
         </div>
@@ -251,6 +252,26 @@
             
             btn.disabled = false;
             btn.textContent = '🔄 Refresh Now';
+        }
+        
+        async function updateSheets() {
+            if (!GAME_ID) {
+                log('Please enter a game URL first', 'warning');
+                return;
+            }
+            
+            const btn = document.getElementById('sheetsBtn');
+            btn.disabled = true;
+            btn.textContent = '⏳ Updating...';
+            log('Triggering GitHub workflow to update sheets...');
+            
+            // Note: To trigger workflow from browser, user needs to manually run it in GitHub Actions
+            // Or set up a GitHub App with repository dispatch
+            log('To update sheets: Go to GitHub Actions → Run workflow → Enter Game ID', 'info');
+            log('Or set GAME_ID in GitHub Secrets for auto-updates', 'info');
+            
+            btn.disabled = false;
+            btn.textContent = '📊 Update Sheets';
         }
         
         function toggleAutoRefresh() {
