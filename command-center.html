@@ -200,9 +200,19 @@
                 setStatus('yellow', 'Waiting for game URL...');
                 return;
             }
-            try {
-                log(`Fetching from ${BASE_URL}/index.html...`);
-                const response = await fetch(`${BASE_URL}/index.html`);
+            
+            // Browser-based fetch from Genius Sports is blocked by CORS security.
+            // Solution: Use GitHub Actions workflow to fetch and write to Sheets.
+            log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━', 'info');
+            log('BROWSER BLOCKED: Cannot fetch directly due to CORS security.', 'error');
+            log('', 'info');
+            log('TO GET LIVE DATA:', 'info');
+            log('1. Go to GitHub → Actions', 'info');
+            log('2. Run workflow with game URL', 'info');
+            log('3. Data writes to Google Sheets', 'info');
+            log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━', 'info');
+            
+            setStatus('yellow', 'Use GitHub Actions for live data');
                 
                 if (!response.ok) {
                     throw new Error(`HTTP ${response.status}`);
