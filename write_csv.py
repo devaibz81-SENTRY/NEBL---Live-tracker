@@ -123,6 +123,60 @@ def parse_st_html(html):
     
     return all_data
 
+def parse_index_players(html):
+    soup = BeautifulSoup(html, 'html.parser')
+    
+    home_players = []
+    away_players = []
+    home_names = set()
+    away_names = set()
+    
+    def get_player_data(row, team_num):
+        row_id = row.get('id', '')
+        pid_match = re.search(rf'aj_{team_num}_(\d+)_row', row_id)
+        if not pid_match:
+            return None
+        pid = pid_match.group(1)
+        
+        name_elem = row.find('span', id=f'aj_{team_num}_{pid}_name')
+        if not name_elem:
+            return None
+        
+        name = name_elem.get_text(strip=True)
+        if not name:
+            return None
+        
+        return {
+            'num': get_value(row.find('span', id=f'aj_{team_num}_{pid}_shirtNumber')),
+            'name': name,
+            'mins': get_value(row.find('span', id=f'aj_{team_num}_{pid}_sMinutes')),
+            'pts': get_value(row.find('span', id=f'aj_{team_num}_{pid}_sPoints')),
+            'reb': get_value(row.find('span', id=f'aj_{team_num}_{pid}_sReboundsTotal')),
+            'ast': get_value(row.find('span', id=f'aj_{team_num}_{pid}_sAssists')),
+            'stl': '',
+            'blk': '',
+            'to': '',
+            'pf': get_value(row.find('span', id=f'aj_{team_num}_{pid}_sFoulsPersonal')),
+        }
+    
+    for row in soup.select('tbody.team-0-person-container tr.player-row'):
+        if 'row-not-used' in (row.get('class') or []):
+            continue
+        p = get_player_data(row, 1)
+        if p and p['name'] not in home_names:
+            home_players.append(p)
+            home_names.add(p['name'])
+    
+    for row in soup.select('tbody.team-1-person-container tr.player-row'):
+        if 'row-not-used' in (row.get('class') or []):
+            continue
+        p = get_player_data(row, 2)
+        if p and p['name'] not in away_names:
+            away_players.append(p)
+            away_names.add(p['name'])
+    
+    return {'home': home_players, 'away': away_players}
+
 def parse_bs_html(html):
     soup = BeautifulSoup(html, 'html.parser')
     
@@ -279,8 +333,6 @@ def write_csv(data, game_num):
         for p in data['home_players']:
             writer.writerow([p['num'], p['name'], p['mins'], p['pts'], p['reb'], p['ast'], p['stl'], p['blk'], p['to'], p['pf']])
         
-        ht = data['home_totals']
-        
         writer.writerow([])
         writer.writerow([data['away'], 'BOX SCORE'])
         writer.writerow(['#', 'Name', 'MIN', 'PTS', 'REB', 'AST', 'STL', 'BLK', 'TO', 'PF'])
@@ -288,14 +340,105 @@ def write_csv(data, game_num):
         for p in data['away_players']:
             writer.writerow([p['num'], p['name'], p['mins'], p['pts'], p['reb'], p['ast'], p['stl'], p['blk'], p['to'], p['pf']])
         
-        at = data['away_totals']
-        
         writer.writerow([])
         writer.writerow(['SCOREBOARD'])
         writer.writerow([data['home'], data['h_score']])
         writer.writerow([data['away'], data['a_score']])
         writer.writerow(['Period', data['period']])
         writer.writerow(['Clock', data['clock']])
+        
+        # Leaders - Points
+        writer.writerow([])
+        writer.writerow(['POINTS LEADERS'])
+        writer.writerow([data['home']])
+        for i, p in enumerate(data.get('home_pts_leaders', []), 1):
+            writer.writerow([i, p.get('name', ''), p.get('val', '')])
+        writer.writerow([data['away']])
+        for i, p in enumerate(data.get('away_pts_leaders', []), 1):
+            writer.writerow([i, p.get('name', ''), p.get('val', '')])
+        
+        # Leaders - Rebounds
+        writer.writerow([])
+        writer.writerow(['REBOUNDS LEADERS'])
+        writer.writerow([data['home']])
+        for i, p in enumerate(data.get('home_reb_leaders', []), 1):
+            writer.writerow([i, p.get('name', ''), p.get('val', '')])
+        writer.writerow([data['away']])
+        for i, p in enumerate(data.get('away_reb_leaders', []), 1):
+            writer.writerow([i, p.get('name', ''), p.get('val', '')])
+        
+        # Leaders - Assists
+        writer.writerow([])
+        writer.writerow(['ASSISTS LEADERS'])
+        writer.writerow([data['home']])
+        for i, p in enumerate(data.get('home_ast_leaders', []), 1):
+            writer.writerow([i, p.get('name', ''), p.get('val', '')])
+        writer.writerow([data['away']])
+        for i, p in enumerate(data.get('away_ast_leaders', []), 1):
+            writer.writerow([i, p.get('name', ''), p.get('val', '')])
+        
+        # Team Stats
+        writer.writerow([])
+        writer.writerow(['TEAM STATS'])
+        ts = data.get('team_stats', {})
+        for key, val in ts.items():
+            if val:
+                writer.writerow([key, val])
+    
+    print(f"Written {filename}")
+
+def write_text(data, game_num):
+    os.makedirs("Game CSV", exist_ok=True)
+    filename = f"Game CSV/Game {game_num}.txt"
+    
+    with open(filename, 'w', encoding='utf-8') as f:
+        f.write(f"NEBL LIVE STATS - GAME {game_num}\n")
+        f.write("=" * 50 + "\n\n")
+        f.write(f"SCOREBOARD\n")
+        f.write(f"{data['home']}: {data['h_score']}\n")
+        f.write(f"{data['away']}: {data['a_score']}\n")
+        f.write(f"Period: {data['period']}, Clock: {data['clock']}\n\n")
+        
+        f.write(f"{data['home']} - BOX SCORE\n")
+        f.write("-" * 30 + "\n")
+        f.write(f"{'#':<4} {'Name':<20} {'MIN':<6} {'PTS':<5} {'REB':<5} {'AST':<5} {'STL':<5} {'BLK':<5} {'TO':<5} {'PF':<5}\n")
+        for p in data['home_players']:
+            f.write(f"{p['num']:<4} {p['name']:<20} {p['mins']:<6} {p['pts']:<5} {p['reb']:<5} {p['ast']:<5} {p['stl']:<5} {p['blk']:<5} {p['to']:<5} {p['pf']:<5}\n")
+        
+        f.write(f"\n{data['away']} - BOX SCORE\n")
+        f.write("-" * 30 + "\n")
+        f.write(f"{'#':<4} {'Name':<20} {'MIN':<6} {'PTS':<5} {'REB':<5} {'AST':<5} {'STL':<5} {'BLK':<5} {'TO':<5} {'PF':<5}\n")
+        for p in data['away_players']:
+            f.write(f"{p['num']:<4} {p['name']:<20} {p['mins']:<6} {p['pts']:<5} {p['reb']:<5} {p['ast']:<5} {p['stl']:<5} {p['blk']:<5} {p['to']:<5} {p['pf']:<5}\n")
+    
+    print(f"Written {filename}")
+
+def write_xml(data, game_num):
+    os.makedirs("Game CSV", exist_ok=True)
+    filename = f"Game CSV/Game {game_num}.xml"
+    
+    with open(filename, 'w', encoding='utf-8') as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+        f.write(f"<game number='{game_num}'>\n")
+        
+        f.write("  <scoreboard>\n")
+        f.write(f"    <home team='{data['home']}' score='{data['h_score']}'/>\n")
+        f.write(f"    <away team='{data['away']}' score='{data['a_score']}'/>\n")
+        f.write(f"    <period>{data['period']}</period>\n")
+        f.write(f"    <clock>{data['clock']}</clock>\n")
+        f.write("  </scoreboard>\n")
+        
+        f.write(f"  <home_team name='{data['home']}'>\n")
+        for p in data['home_players']:
+            f.write(f"    <player number='{p['num']}' name='{p['name']}' min='{p['mins']}' pts='{p['pts']}' reb='{p['reb']}' ast='{p['ast']}' stl='{p['stl']}' blk='{p['blk']}' to='{p['to']}' pf='{p['pf']}'/>\n")
+        f.write("  </home_team>\n")
+        
+        f.write(f"  <away_team name='{data['away']}'>\n")
+        for p in data['away_players']:
+            f.write(f"    <player number='{p['num']}' name='{p['name']}' min='{p['mins']}' pts='{p['pts']}' reb='{p['reb']}' ast='{p['ast']}' stl='{p['stl']}' blk='{p['blk']}' to='{p['to']}' pf='{p['pf']}'/>\n")
+        f.write("  </away_team>\n")
+        
+        f.write("</game>\n")
     
     print(f"Written {filename}")
 
@@ -340,10 +483,13 @@ if __name__ == "__main__":
     
     data = parse_bs_html(bs_html)
     data_index = parse_index_html(index_html)
+    data_players = parse_index_players(index_html)
     data_st = parse_st_html(st_html)
     data_lds = parse_lds_html(lds_html)
     
-    # Combine data
+    # Combine data - use index players for box score (has all players)
+    data['home_players'] = data_players.get('home', data.get('home_players', []))
+    data['away_players'] = data_players.get('away', data.get('away_players', []))
     data['h_score'] = data_index.get('h_score', data.get('h_score'))
     data['a_score'] = data_index.get('a_score', data.get('a_score'))
     data['period'] = data_index.get('period', data.get('period'))
@@ -370,9 +516,13 @@ if __name__ == "__main__":
             
             data = parse_bs_html(bs_html)
             data_index = parse_index_html(index_html)
+            data_players = parse_index_players(index_html)
             data_st = parse_st_html(st_html)
             data_lds = parse_lds_html(lds_html)
             
+            # Use index players for box score (has all players)
+            data['home_players'] = data_players.get('home', [])
+            data['away_players'] = data_players.get('away', [])
             data['h_score'] = data_index.get('h_score', data.get('h_score'))
             data['a_score'] = data_index.get('a_score', data.get('a_score'))
             data['period'] = data_index.get('period', data.get('period'))
@@ -386,6 +536,8 @@ if __name__ == "__main__":
             data['team_stats'] = data_st
             
             write_csv(data, GAME_NUM)
+            write_text(data, GAME_NUM)
+            write_xml(data, GAME_NUM)
             print(f"Updated at {time.strftime('%H:%M:%S')} - Score: {data['home']} {data['h_score']} - {data['a_score']} {data['away']}")
             time.sleep(10)
         except KeyboardInterrupt:
