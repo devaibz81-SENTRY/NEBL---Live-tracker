@@ -51,7 +51,7 @@ def fetch(url, retries=3):
 
 def get_value(elem):
     if not elem:
-        return ""
+        return "--"
     text = elem.get_text(strip=True)
     if text:
         return text
@@ -61,7 +61,7 @@ def get_value(elem):
             val = c[3:]
             if val.replace(':', '').replace('-', '').isdigit():
                 return val
-    return ""
+    return "--"
 
 def parse_index_html(html):
     soup = BeautifulSoup(html, 'html.parser')
@@ -612,10 +612,10 @@ if __name__ == "__main__":
             write_text(data, GAME_NUM)
             write_xml(data, GAME_NUM)
             print(f"Updated at {time.strftime('%H:%M:%S')} - Score: {data['home']} {data['h_score']} - {data['a_score']} {data['away']}")
-            time.sleep(10)
+            time.sleep(5)
         except KeyboardInterrupt:
             print("Stopped.")
             break
         except Exception as e:
             print(f"Error: {e}")
-            time.sleep(10)
+            time.sleep(5)
