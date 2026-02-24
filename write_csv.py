@@ -384,6 +384,42 @@ def write_csv(data, game_num):
         for key, val in ts.items():
             if val:
                 writer.writerow([key, val])
+        
+        # Team Totals from bs.html
+        writer.writerow([])
+        writer.writerow(['TEAM TOTALS'])
+        writer.writerow(['Team', 'Points', 'REB', 'AST', 'STL', 'BLK', 'TO', 'PF', 'PIP*', '2CP*', 'BP*'])
+        writer.writerow([data['home'], data.get('home_totals', {}).get('pts', ''), data.get('home_totals', {}).get('reb', ''), data.get('home_totals', {}).get('ast', ''), data.get('home_totals', {}).get('stl', ''), data.get('home_totals', {}).get('blk', ''), data.get('home_totals', {}).get('to', ''), data.get('home_totals', {}).get('pf', ''), data.get('home_totals', {}).get('pts_paint', ''), data.get('home_totals', {}).get('pts_second', ''), data.get('home_totals', {}).get('bench_pts', '')])
+        writer.writerow([data['away'], data.get('away_totals', {}).get('pts', ''), data.get('away_totals', {}).get('reb', ''), data.get('away_totals', {}).get('ast', ''), data.get('away_totals', {}).get('stl', ''), data.get('away_totals', {}).get('blk', ''), data.get('away_totals', {}).get('to', ''), data.get('away_totals', {}).get('pf', ''), data.get('away_totals', {}).get('pts_paint', ''), data.get('away_totals', {}).get('pts_second', ''), data.get('away_totals', {}).get('bench_pts', '')])
+        
+        # Advanced stats from bs.html
+        writer.writerow([])
+        writer.writerow(['ADVANCED STATS'])
+        writer.writerow(['Team', 'Player', 'FG', 'FG%', '3PT', '3PT%', 'FT', 'FT%', '+/-', 'EFF'])
+        
+        for p in data.get('home_players', []):
+            writer.writerow([data['home'], p.get('name', ''), f"{p.get('fg_m', '')}/{p.get('fg_a', '')}", p.get('fg_pct', ''), f"{p.get('three_p_m', '')}/{p.get('three_p_a', '')}", p.get('three_p_pct', ''), f"{p.get('ft_m', '')}/{p.get('ft_a', '')}", p.get('ft_pct', ''), p.get('plus_minus', ''), p.get('eff', '')])
+        
+        for p in data.get('away_players', []):
+            writer.writerow([data['away'], p.get('name', ''), f"{p.get('fg_m', '')}/{p.get('fg_a', '')}", p.get('fg_pct', ''), f"{p.get('three_p_m', '')}/{p.get('three_p_a', '')}", p.get('three_p_pct', ''), f"{p.get('ft_m', '')}/{p.get('ft_a', '')}", p.get('ft_pct', ''), p.get('plus_minus', ''), p.get('eff', '')])
+        
+        # Four Factors from st.html
+        writer.writerow([])
+        writer.writerow(['FOUR FACTORS'])
+        writer.writerow(['Metric', data['home'], data['away']])
+        
+        ht = data.get('home_totals', {})
+        at = data.get('away_totals', {})
+        
+        writer.writerow(['Field Goal %', f"{ht.get('fg_pct', '')}%", f"{at.get('fg_pct', '')}%"])
+        writer.writerow(['2-Point %', f"{ht.get('two_p_pct', '')}%", f"{at.get('two_p_pct', '')}%"])
+        writer.writerow(['3-Point %', f"{ht.get('three_p_pct', '')}%", f"{at.get('three_p_pct', '')}%"])
+        writer.writerow(['Free Throw %', f"{ht.get('ft_pct', '')}%", f"{at.get('ft_pct', '')}%"])
+        writer.writerow(['Points in Paint', ht.get('pts_paint', ''), at.get('pts_paint', '')])
+        writer.writerow(['Points from TO', ht.get('pts_turnovers', ''), at.get('pts_turnovers', '')])
+        writer.writerow(['2nd Chance Points', ht.get('pts_second', ''), at.get('pts_second', '')])
+        writer.writerow(['Fast Break Points', ht.get('pts_fast', ''), at.get('pts_fast', '')])
+        writer.writerow(['Bench Points', ht.get('bench_pts', ''), at.get('bench_pts', '')])
     
     print(f"Written {filename}")
 
@@ -410,6 +446,18 @@ def write_text(data, game_num):
         f.write(f"{'#':<4} {'Name':<20} {'MIN':<6} {'PTS':<5} {'REB':<5} {'AST':<5} {'STL':<5} {'BLK':<5} {'TO':<5} {'PF':<5}\n")
         for p in data['away_players']:
             f.write(f"{p['num']:<4} {p['name']:<20} {p['mins']:<6} {p['pts']:<5} {p['reb']:<5} {p['ast']:<5} {p['stl']:<5} {p['blk']:<5} {p['to']:<5} {p['pf']:<5}\n")
+        
+        # Team Stats
+        f.write(f"\nTEAM STATS\n")
+        ts = data.get('team_stats', {})
+        for key, val in ts.items():
+            if val:
+                f.write(f"{key}: {val}\n")
+        
+        # Team Totals
+        f.write(f"\nTEAM TOTALS\n")
+        f.write(f"{data['home']}: Pts={data.get('home_totals', {}).get('pts', '')} REB={data.get('home_totals', {}).get('reb', '')} AST={data.get('home_totals', {}).get('ast', '')} STL={data.get('home_totals', {}).get('stl', '')} BLK={data.get('home_totals', {}).get('blk', '')} TO={data.get('home_totals', {}).get('to', '')} PF={data.get('home_totals', {}).get('pf', '')} PIP={data.get('home_totals', {}).get('pts_paint', '')} 2CP={data.get('home_totals', {}).get('pts_second', '')} BP={data.get('home_totals', {}).get('bench_pts', '')}\n")
+        f.write(f"{data['away']}: Pts={data.get('away_totals', {}).get('pts', '')} REB={data.get('away_totals', {}).get('reb', '')} AST={data.get('away_totals', {}).get('ast', '')} STL={data.get('away_totals', {}).get('stl', '')} BLK={data.get('away_totals', {}).get('blk', '')} TO={data.get('away_totals', {}).get('to', '')} PF={data.get('away_totals', {}).get('pf', '')} PIP={data.get('away_totals', {}).get('pts_paint', '')} 2CP={data.get('away_totals', {}).get('pts_second', '')} BP={data.get('away_totals', {}).get('bench_pts', '')}\n")
     
     print(f"Written {filename}")
 
@@ -437,6 +485,11 @@ def write_xml(data, game_num):
         for p in data['away_players']:
             f.write(f"    <player number='{p['num']}' name='{p['name']}' min='{p['mins']}' pts='{p['pts']}' reb='{p['reb']}' ast='{p['ast']}' stl='{p['stl']}' blk='{p['blk']}' to='{p['to']}' pf='{p['pf']}'/>\n")
         f.write("  </away_team>\n")
+        
+        f.write("  <team_totals>\n")
+        f.write(f"    <team name='{data['home']}' pts='{data.get('home_totals', {}).get('pts', '')}' reb='{data.get('home_totals', {}).get('reb', '')}' ast='{data.get('home_totals', {}).get('ast', '')}' stl='{data.get('home_totals', {}).get('stl', '')}' blk='{data.get('home_totals', {}).get('blk', '')}' to='{data.get('home_totals', {}).get('to', '')}' pf='{data.get('home_totals', {}).get('pf', '')}' pip='{data.get('home_totals', {}).get('pts_paint', '')}' tcp='{data.get('home_totals', {}).get('pts_second', '')}' bp='{data.get('home_totals', {}).get('bench_pts', '')}'/>\n")
+        f.write(f"    <team name='{data['away']}' pts='{data.get('away_totals', {}).get('pts', '')}' reb='{data.get('away_totals', {}).get('reb', '')}' ast='{data.get('away_totals', {}).get('ast', '')}' stl='{data.get('away_totals', {}).get('stl', '')}' blk='{data.get('away_totals', {}).get('blk', '')}' to='{data.get('away_totals', {}).get('to', '')}' pf='{data.get('away_totals', {}).get('pf', '')}' pip='{data.get('away_totals', {}).get('pts_paint', '')}' tcp='{data.get('away_totals', {}).get('pts_second', '')}' bp='{data.get('away_totals', {}).get('bench_pts', '')}'/>\n")
+        f.write("  </team_totals>\n")
         
         f.write("</game>\n")
     
@@ -534,6 +587,26 @@ if __name__ == "__main__":
             data['home_ast_leaders'] = data_lds.get('home_ast_leaders', [])
             data['away_ast_leaders'] = data_lds.get('away_ast_leaders', [])
             data['team_stats'] = data_st
+            
+            # Merge advanced stats from bs.html into players
+            bs_data = parse_bs_html(bs_html)
+            if 'home_totals' in bs_data:
+                data['home_totals'] = bs_data.get('home_totals', {})
+            if 'away_totals' in bs_data:
+                data['away_totals'] = bs_data.get('away_totals', {})
+            
+            # Merge player advanced stats
+            for hp in data.get('home_players', []):
+                for bsp in bs_data.get('home_players', []):
+                    if hp.get('name') == bsp.get('name'):
+                        hp.update(bsp)
+                        break
+            
+            for ap in data.get('away_players', []):
+                for bsp in bs_data.get('away_players', []):
+                    if ap.get('name') == bsp.get('name'):
+                        ap.update(bsp)
+                        break
             
             write_csv(data, GAME_NUM)
             write_text(data, GAME_NUM)
